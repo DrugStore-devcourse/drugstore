@@ -12,3 +12,8 @@
     ```
     pip install -r requirements.txt
     ```
+4. 테이블 생성
+    ```
+    python manage.py makemigrations
+    python manage.py migrate
+    ```
