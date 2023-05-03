@@ -1,8 +1,14 @@
+import logging
+
 from pyecharts import options as opts
 from pyecharts.charts import Pie
 
 from django.shortcuts import render
-from apps.visualization.constants import TOP10_PIE_CHART, TOP10_CHART_TITLE
+from django.http import Http404
+
+from apps.data_api.models import Drug
+from apps.data_collection.models import Word
+from apps.visualization.constants import *
 from django.db import connection
 
 
@@ -12,17 +18,25 @@ def top10_pie_chart(request):
     :param request:
     :return:
     """
-    with connection.cursor() as cursor:
-        query = "SELECT text, SUM(frequecny) " \
-                "FROM words " \
-                "WHERE text IN (SELECT drfstf FROM drugs GROUP BY drfstf) " \
-                "GROUP BY text " \
-                "ORDER BY 2 DESC"
-        cursor.execute(query)
-        drugs_tuple = cursor.fetchall()
-        drugs = [[x, y] for x, y in drugs_tuple]
 
-    context = _render_pie_chart(datas=drugs, title=TOP10_CHART_TITLE)
+    try:
+        if not Drug.objects.exists() or not Word.objects.exists():
+            logging.warning(ROWS_NOT_EXIST)
+            context = {'error_message': CHART_CREATION_REJECT}
+        else:
+            with connection.cursor() as cursor:
+                query = "SELECT text, SUM(frequecny) " \
+                        "FROM words " \
+                        "WHERE text IN (SELECT drfstf FROM drugs GROUP BY drfstf) " \
+                        "GROUP BY text " \
+                        "ORDER BY 2 DESC"
+                cursor.execute(query)
+                drugs_tuple = cursor.fetchall()
+                drugs = [[x, y] for x, y in drugs_tuple]
+            context = _render_pie_chart(datas=drugs, title=TOP10_CHART_TITLE)
+    except (Drug.DoesNotExist, Word.DoesNotExist):
+        logging.warning(TABLE_NOT_EXIST)
+        raise Http404(CHART_CREATION_FAILED)
 
     return render(request, f'visualization/{TOP10_PIE_CHART}.html', context)
 
