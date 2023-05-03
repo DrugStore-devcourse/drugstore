@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 """
 
 from pathlib import Path
+import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -124,8 +125,11 @@ STATICFILES_DIRS = [
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-# 로깅 추가 
-# project/settings.py
+LOGS_ROOT = os.path.join(BASE_DIR, 'logs')
+
+# Create logs directory if it does not exist
+if not os.path.exists(LOGS_ROOT):
+    os.makedirs(LOGS_ROOT)
 
 LOGGING = {
     'version': 1,
@@ -169,7 +173,7 @@ LOGGING = {
             'encoding': 'utf-8',
             'filters': ['require_debug_false'],
             'class': 'logging.handlers.RotatingFileHandler',
-            'filename': BASE_DIR / 'logs/drugstrore.log',
+            'filename': os.path.join(LOGS_ROOT, 'drugstrore.log'),
             'maxBytes': 1024*1024*5,  # 5 MB
             'backupCount': 5,
             'formatter': 'standard',
@@ -179,7 +183,7 @@ LOGGING = {
             'encoding': 'utf-8',
             'filters': ['require_debug_false'],
             'class': 'logging.handlers.RotatingFileHandler',
-            'filename': BASE_DIR / 'logs/crawler.log',
+            'filename': os.path.join(LOGS_ROOT, 'crawler.log'),
             'maxBytes': 1024*1024*5,  # 5 MB
             'backupCount': 5,
             'formatter': 'standard',
