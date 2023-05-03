@@ -8,6 +8,7 @@ from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.by import By
 import logging
+import time
 
 
 class ArticleCrawler : 
@@ -43,6 +44,8 @@ class ArticleCrawler :
     def get_article_links(self, presses:dict) -> dict: 
         '''
         This function gets links to drug-related news articles from each press from the previous day.
+
+        <<TODO>> try-exception, logging
         '''
         article_links = {}
 
@@ -74,12 +77,35 @@ class ArticleCrawler :
         return article_links
 
 
-    def get_chosun_article(self, link):
-        # <<TODO>>
-        return 0
+    def get_chosun_article(self, link:str) -> dict:
+        '''
+        This function gets aritlce contents of 'chosun' press. 
+        <<TODO>> try-exception, logging
+        '''
+        self.driver.get(link)
+        time.sleep(0.5)
+
+        title = self.driver.find_element(by=By.CSS_SELECTOR, value="#fusion-app > div.article.\| > div:nth-child(2) > div > div > div.article-header__headline-container.\|.box--pad-left-md.box--pad-right-md > h1 > span").text
+        written_at = self.driver.find_element(by=By.XPATH, value='//*[@id="fusion-app"]/div[1]/div[2]/div/section/article/div[2]/span')
+        written_at = written_at.text.split()[1][:-1]
+        written_at_obj = datetime.strptime(written_at, '%Y.%m.%d').date()
+        total_contents = ''
+        contents = self.driver.find_elements(by=By.CSS_SELECTOR, value="#fusion-app > div.article.\| > div:nth-child(2) > div > section > article > section > p")
+        for content in contents:
+            total_contents += content.text
+
+        article = {
+            'title' : title,
+            'content' : total_contents,
+            'written_at' : written_at_obj,
+            'url' : link,
+        }
+
+        return article
 
 
-    def main(self) :
+
+    def main(self) -> dict:
         presses = {
         'chosun' : 'https://search.daum.net/search?w=news&q=%EB%A7%88%EC%95%BD&DA=STC&spacing=0&period=d&sd={{startdate}}&ed={{enddate}}&cp=16d4PV266g2j-N3GYq&cpname=%EC%A1%B0%EC%84%A0%EC%9D%BC%EB%B3%B4',
         'yeonhap' : 'https://search.daum.net/search?w=news&q=%EB%A7%88%EC%95%BD&DA=STC&spacing=0&period=d&sd={{startdate}}&ed={{enddate}}&cp=16X5Xh1MWS7Qt1sMrW&cpname=%EC%97%B0%ED%95%A9%EB%89%B4%EC%8A%A4',
