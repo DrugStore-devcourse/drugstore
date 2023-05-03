@@ -19,6 +19,7 @@ class DataApiConfig(AppConfig):
         try:
             if Drug.objects.exists():
                 Drug.objects.all().delete()
-                call_command('loaddata', 'drug.json')
+                
+            call_command('loaddata', 'drug.json')
         except OperationalError:
             logger.warning("[drugs 데이터 생성 실패] drugs 테이블이 없습니다 migrate를 수행해주세요")
