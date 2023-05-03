@@ -32,4 +32,4 @@ class Drug(models.Model):
     updated_at = models.DateTimeField(auto_now=True, verbose_name="수정일시")
 
     class Meta:
-        db_table = "drug"
+        db_table = "drugs"
