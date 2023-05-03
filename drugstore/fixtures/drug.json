@@ -786,22 +786,6 @@
   {
     "model": "data_api.Drug",
     "fields": {
-      "drug_no": "P61",
-      "drfstf": "헥소바르비탈",
-      "drfstf_eng": "Hexobarbital",
-      "type_code": "향정신성의약품",
-      "pharm": "",
-      "side_effect": "",
-      "medication": "",
-      "del_field": false,
-      "id": 50,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
-    }
-  },
-  {
-    "model": "data_api.Drug",
-    "fields": {
       "drug_no": "P60",
       "drfstf": "헥세탈",
       "drfstf_eng": "Hexethal",
@@ -827,22 +811,6 @@
       "medication": "",
       "del_field": false,
       "id": 52,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
-    }
-  },
-  {
-    "model": "data_api.Drug",
-    "fields": {
-      "drug_no": "P58",
-      "drfstf": "헵타바르비탈",
-      "drfstf_eng": "Heptabarbital",
-      "type_code": "향정신성의약품",
-      "pharm": "",
-      "side_effect": "",
-      "medication": "",
-      "del_field": false,
-      "id": 53,
       "created_at": "2023-05-02 18:03:12",
       "updated_at": "2023-05-02 18:03:12"
     }
@@ -882,22 +850,6 @@
   {
     "model": "data_api.Drug",
     "fields": {
-      "drug_no": "P55",
-      "drfstf": "싸이크로펜토바르비탈",
-      "drfstf_eng": "Cyclopentobarbital",
-      "type_code": "향정신성의약품",
-      "pharm": "",
-      "side_effect": "",
-      "medication": "",
-      "del_field": false,
-      "id": 56,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
-    }
-  },
-  {
-    "model": "data_api.Drug",
-    "fields": {
       "drug_no": "P54",
       "drfstf": "싸이크로바르비탈",
       "drfstf_eng": "Cyclobarbital",
@@ -930,54 +882,6 @@
   {
     "model": "data_api.Drug",
     "fields": {
-      "drug_no": "P52",
-      "drfstf": "부타리로날",
-      "drfstf_eng": "Butallylonal",
-      "type_code": "향정신성의약품",
-      "pharm": "",
-      "side_effect": "",
-      "medication": "",
-      "del_field": false,
-      "id": 59,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
-    }
-  },
-  {
-    "model": "data_api.Drug",
-    "fields": {
-      "drug_no": "P51",
-      "drfstf": "부탈비탈",
-      "drfstf_eng": "Butalbital",
-      "type_code": "향정신성의약품",
-      "pharm": "",
-      "side_effect": "",
-      "medication": "",
-      "del_field": false,
-      "id": 60,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
-    }
-  },
-  {
-    "model": "data_api.Drug",
-    "fields": {
-      "drug_no": "P50",
-      "drfstf": "섹부타바르비탈",
-      "drfstf_eng": "Secbutabarbital",
-      "type_code": "향정신성의약품",
-      "pharm": "",
-      "side_effect": "",
-      "medication": "",
-      "del_field": false,
-      "id": 61,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
-    }
-  },
-  {
-    "model": "data_api.Drug",
-    "fields": {
       "drug_no": "P49",
       "drfstf": "부라로바르비탈",
       "drfstf_eng": "Brallobarbital",
@@ -1003,22 +907,6 @@
       "medication": "",
       "del_field": false,
       "id": 63,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
-    }
-  },
-  {
-    "model": "data_api.Drug",
-    "fields": {
-      "drug_no": "P47",
-      "drfstf": "아프로바르비탈",
-      "drfstf_eng": "Aprobarbital",
-      "type_code": "향정신성의약품",
-      "pharm": "",
-      "side_effect": "",
-      "medication": "",
-      "del_field": false,
-      "id": 64,
       "created_at": "2023-05-02 18:03:12",
       "updated_at": "2023-05-02 18:03:12"
     }
@@ -4642,22 +4530,6 @@
   {
     "model": "data_api.Drug",
     "fields": {
-      "drug_no": "E01",
-      "drfstf": "톨루엔",
-      "drfstf_eng": "Toluene",
-      "type_code": "환각성유해화학물",
-      "pharm": "",
-      "side_effect": "",
-      "medication": "",
-      "del_field": false,
-      "id": 291,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
-    }
-  },
-  {
-    "model": "data_api.Drug",
-    "fields": {
       "drug_no": "D2",
       "drfstf": "티에이치씨",
       "drfstf_eng": "THC",
@@ -4802,22 +4674,6 @@
   {
     "model": "data_api.Drug",
     "fields": {
-      "drug_no": "P62",
-      "drfstf": "메타아비탈",
-      "drfstf_eng": "Metharbital",
-      "type_code": "향정신성의약품",
-      "pharm": "",
-      "side_effect": "",
-      "medication": "",
-      "del_field": false,
-      "id": 301,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
-    }
-  },
-  {
-    "model": "data_api.Drug",
-    "fields": {
       "drug_no": "P61",
       "drfstf": "헥소바르비탈",
       "drfstf_eng": "Hexobarbital",
@@ -4827,38 +4683,6 @@
       "medication": "",
       "del_field": false,
       "id": 302,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
-    }
-  },
-  {
-    "model": "data_api.Drug",
-    "fields": {
-      "drug_no": "P60",
-      "drfstf": "헥세탈",
-      "drfstf_eng": "Hexethal",
-      "type_code": "향정신성의약품",
-      "pharm": "",
-      "side_effect": "",
-      "medication": "",
-      "del_field": false,
-      "id": 303,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
-    }
-  },
-  {
-    "model": "data_api.Drug",
-    "fields": {
-      "drug_no": "P59",
-      "drfstf": "헵토바르비탈",
-      "drfstf_eng": "Heptobarbital",
-      "type_code": "향정신성의약품",
-      "pharm": "",
-      "side_effect": "",
-      "medication": "",
-      "del_field": false,
-      "id": 304,
       "created_at": "2023-05-02 18:03:12",
       "updated_at": "2023-05-02 18:03:12"
     }
@@ -4882,38 +4706,6 @@
   {
     "model": "data_api.Drug",
     "fields": {
-      "drug_no": "P57",
-      "drfstf": "에트아로바르비탈",
-      "drfstf_eng": "Ethallobarbital",
-      "type_code": "향정신성의약품",
-      "pharm": "",
-      "side_effect": "",
-      "medication": "",
-      "del_field": false,
-      "id": 306,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
-    }
-  },
-  {
-    "model": "data_api.Drug",
-    "fields": {
-      "drug_no": "P56",
-      "drfstf": "엔아릴푸로피말",
-      "drfstf_eng": "Enallylpropymal",
-      "type_code": "향정신성의약품",
-      "pharm": "",
-      "side_effect": "",
-      "medication": "",
-      "del_field": false,
-      "id": 307,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
-    }
-  },
-  {
-    "model": "data_api.Drug",
-    "fields": {
       "drug_no": "P55",
       "drfstf": "싸이크로펜토바르비탈",
       "drfstf_eng": "Cyclopentobarbital",
@@ -4923,38 +4715,6 @@
       "medication": "",
       "del_field": false,
       "id": 308,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
-    }
-  },
-  {
-    "model": "data_api.Drug",
-    "fields": {
-      "drug_no": "P54",
-      "drfstf": "싸이크로바르비탈",
-      "drfstf_eng": "Cyclobarbital",
-      "type_code": "향정신성의약품",
-      "pharm": "",
-      "side_effect": "",
-      "medication": "",
-      "del_field": false,
-      "id": 309,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
-    }
-  },
-  {
-    "model": "data_api.Drug",
-    "fields": {
-      "drug_no": "P53",
-      "drfstf": "부토바르비탈",
-      "drfstf_eng": "Butobarbital",
-      "type_code": "향정신성의약품",
-      "pharm": "",
-      "side_effect": "",
-      "medication": "",
-      "del_field": false,
-      "id": 310,
       "created_at": "2023-05-02 18:03:12",
       "updated_at": "2023-05-02 18:03:12"
     }
@@ -5003,38 +4763,6 @@
       "medication": "",
       "del_field": false,
       "id": 313,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
-    }
-  },
-  {
-    "model": "data_api.Drug",
-    "fields": {
-      "drug_no": "P49",
-      "drfstf": "부라로바르비탈",
-      "drfstf_eng": "Brallobarbital",
-      "type_code": "향정신성의약품",
-      "pharm": "",
-      "side_effect": "",
-      "medication": "",
-      "del_field": false,
-      "id": 314,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
-    }
-  },
-  {
-    "model": "data_api.Drug",
-    "fields": {
-      "drug_no": "P48",
-      "drfstf": "바르비탈",
-      "drfstf_eng": "Barbital",
-      "type_code": "향정신성의약품",
-      "pharm": "",
-      "side_effect": "",
-      "medication": "",
-      "del_field": false,
-      "id": 315,
       "created_at": "2023-05-02 18:03:12",
       "updated_at": "2023-05-02 18:03:12"
     }
