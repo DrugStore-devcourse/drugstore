@@ -4,6 +4,7 @@ from django.core.management import call_command
 from django.http import Http404
 from django.db import connection
 from apps.data_api.models import Drug
+from apps.data_collection.models import Article, Word
 from apps.visualization.constants import TOP10_PIE_CHART, APP_NAME, CHART_CREATION_REJECT, CHART_CREATION_FAILED
 
 
@@ -12,11 +13,14 @@ class Top10PieChartViewTest(TestCase):
         self.client = Client()
         self.url = reverse(f'{APP_NAME}:{TOP10_PIE_CHART}')
 
-        call_command('loaddata', 'drug.json')
-        call_command('dummydata', 'add')
+        call_command('loaddata', 'test_drug.json')
+        call_command('loaddata', 'test_article.json')
+        call_command('loaddata', 'test_word.json')
 
     def tearDown(self):
-        call_command('dummydata', 'remove')
+        Drug.objects.all().delete()
+        Article.objects.all().delete()
+        Word.objects.all().delete()
 
     def test_datas_not_exists(self):
         """

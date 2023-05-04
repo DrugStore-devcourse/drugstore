@@ -1,0 +1,50 @@
+[
+  {
+    "model": "data_api.Drug",
+    "fields": {
+      "drug_no": "N60",
+      "drfstf": "펜타닐",
+      "drfstf_eng": "Fentanyl",
+      "type_code": "마약",
+      "pharm": "",
+      "side_effect": "",
+      "medication": "",
+      "del_field": false,
+      "id": 220,
+      "created_at": "2023-05-02 18:03:12",
+      "updated_at": "2023-05-02 18:03:12"
+    }
+  },
+  {
+    "model": "data_api.Drug",
+    "fields": {
+      "drug_no": "N16",
+      "drfstf": "모르핀",
+      "drfstf_eng": "Morphine",
+      "type_code": "마약",
+      "pharm": "  간에서 glucuronide 포합 대사되며, 반감기는 신생아는 4.5-13.3 시간 (평균 7.6 시간), 성인은 2-4 시간이며, 미변화체로 신배설된다.",
+      "side_effect": "항이뇨호르몬(ADH) 분비, 홍조, 중추신경계 억제, 졸음, 진정, 뇌압상승, 육체적, 정신적 의존성, 발한, 주사부위의 통증, 근신경 및 골격계 쇠약, 심계항진, 저혈압, 서맥, 오심, 구토, 변비, 구갈,  현기(dizziness), Histamine 유리, 근신경 및 골격계 떨림, 시각장애, 배뇨곤란,  식욕부진, 위장관 자극, 구갈, 마비성 장폐색, 초조, 두통, 잘못된 행복감, 혼동, 호흡억제, 단호흡",
+      "medication": "",
+      "del_field": false,
+      "id": 264,
+      "created_at": "2023-05-02 18:03:12",
+      "updated_at": "2023-05-02 18:03:12"
+    }
+  },
+  {
+    "model": "data_api.Drug",
+    "fields": {
+      "drug_no": "N06",
+      "drfstf": "디히드로모르핀",
+      "drfstf_eng": "Dihydromorphine",
+      "type_code": "마약",
+      "pharm": "간에서 glucuronide 포합 대사되어 뇨로 배설된다.\r\n",
+      "side_effect": "대체로 모르핀과 유사\r\n",
+      "medication": "",
+      "del_field": false,
+      "id": 282,
+      "created_at": "2023-05-02 18:03:12",
+      "updated_at": "2023-05-02 18:03:12"
+    }
+  }
+]
