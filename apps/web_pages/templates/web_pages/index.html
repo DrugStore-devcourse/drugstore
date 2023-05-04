@@ -1,13 +1,28 @@
 {% load static %} 
 <!DOCTYPE html> 
 <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="{% static 'css/main.css' %}">
 </head>
 <body>
-    {% include 'visualization/top10_pie_chart.html' with chart=chart %}
-    <div class="drug_list">
-    {% for drug in hot_drugs %}
-        <h1><a href="{% url 'web:detail' drug.id %}">{{drug.drfstf}}</h1>
-    {% endfor %}
+    <div class="top">
+    </div>
+    <div class="result">
+        <div class="pie-chart">
+            {% include 'visualization/top10_pie_chart.html' with chart=chart %}
+        </div>
+
+        <div class="list-group">
+        {% for drug in hot_drugs %}
+            <a href="{% url 'web:detail' drug.drug_no %}" class="list-group-item list-group-item-action flex-column align-items-start">
+                <div class="d-flex w-100 justify-content-between">
+                    <h6 class="mb-1">{{drug.drfstf}}</h6>
+                    <small>{{drug.frequency}}번 언급됨</small>
+                    
+                </div>
+                <small class="text-muted">{{drug.type_code}}</small>
+            </a>
+        {% endfor %}
+        </div>
     </div>
 </body>

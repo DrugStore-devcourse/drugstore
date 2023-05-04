@@ -1,4 +1,37 @@
-a:link, a:visited, a:hover, a:active  { 
-    color: black; 
-    text-decoration: none; 
-} 
+.list-group{
+    width:300px !important;
+    float:right;
+    position:relative;
+}
+.top{
+    height:100px;
+}
+.result{
+    display:flex;
+}
+.pie-chart{
+    margin:auto 0;
+    float:left;
+    vertical-align: middle;
+    position:relative;
+}
+.list-group-item{
+    border-left:none !important;
+    border-right:none !important;
+}
+.list-group-item:first-child{
+    border-top:none !important;
+}
+.list-group-item:last-child{
+    border-bottom:none !important;  
+}
+.chart-container{
+    width:900px !important;
+    height:500px !important;
+}
+.list-group-item .list-group-item-action .flex-column .align-items-start{
+    height:50px !important;
+}
+h6.mb-1{
+    border-bottom: 1px solid #bcbcbc;
+}
