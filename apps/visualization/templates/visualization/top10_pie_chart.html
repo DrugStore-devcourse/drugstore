@@ -1,0 +1,12 @@
+{% block content %}
+    <div class="chart-container">
+
+        {% if error_message %}
+            <p><strong>{{ error_message }}</strong></p>
+        {% endif %}
+
+        {% if chart %}
+            {{ chart | safe }}
+        {% endif %}
+    </div>
+{% endblock %}
