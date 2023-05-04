@@ -4,10 +4,10 @@
     <link rel="stylesheet" href="{% static 'css/main.css' %}">
 </head>
 <body>
+    {% include 'visualization/top10_pie_chart.html' with chart=chart %}
     <div class="drug_list">
     {% for drug in hot_drugs %}
         <h1><a href="{% url 'web:detail' drug.id %}">{{drug.drfstf}}</h1>
     {% endfor %}
     </div>
-    <p>{{hot_drugs}}</p>
 </body>

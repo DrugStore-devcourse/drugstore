@@ -2,6 +2,7 @@ from django.shortcuts import render, get_object_or_404
 from django.shortcuts import HttpResponse
 from ..data_api.models import *
 from ..data_collection.models import *
+import requests
 
 # Create your views here.
 def drug_list(request):
@@ -13,13 +14,15 @@ def drug_list(request):
         mosts = Word.objects.all().filter(text__in=names).order_by('-frequency').values()[:10]
     
     hot_drugs = []
+    charts = []
     for most in mosts:
         for drug in drugs:
             if drug['drfstf'] == most['text']:
                 hot_drugs.append({"id":drug['id'], "drfstf":drug['drfstf'], 'drfstf_eng':drug['drfstf_eng'], 'frequency':most['frequency']})
+                charts.append([drug['drfstf'], most['frequency']])
 
     context = {'hot_drugs' : hot_drugs}
-
+    context['chart'] = requests.get('http://127.0.0.1:8000/chart/top10').text
 
     return render(request, 'web_pages/index.html', context=context)
 
