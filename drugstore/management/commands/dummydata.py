@@ -6,7 +6,32 @@ from faker import Faker
 from apps.data_collection.models import *
 
 
-def add_dummy_data(num_article=10):
+class Command(BaseCommand):
+    help = 'Adds or removes dummy data.'
+
+    def add_arguments(self, parser):
+        parser.add_argument('action', type=str, choices=['add', 'remove'])
+        parser.add_argument(
+            '--num',
+            type=int,
+            default=10,
+            help='Number of questions to add (default: 10)',
+            required=False
+        )
+
+    def handle(self, *args, **options):
+        action = options['action']
+
+        if action == 'add':
+            num = options['num']
+            _add_dummy_data(num)
+            self.stdout.write(self.style.SUCCESS('Successfully added dummy data.'))
+        elif action == 'remove':
+            _remove_dummy_data()
+            self.stdout.write(self.style.SUCCESS('Successfully removed dummy data.'))
+
+
+def _add_dummy_data(num_article=10):
     seeder = Seeder(faker=Faker())
 
     # article
@@ -32,31 +57,6 @@ def add_dummy_data(num_article=10):
     print(f'{word_count} dummy word created!')
 
 
-def remove_dummy_data():
+def _remove_dummy_data():
     Word.objects.all().delete()
     Article.objects.all().delete()
-
-
-class Command(BaseCommand):
-    help = 'Adds or removes dummy data.'
-
-    def add_arguments(self, parser):
-        parser.add_argument('action', type=str, choices=['add', 'remove'])
-        parser.add_argument(
-            '--num',
-            type=int,
-            default=10,
-            help='Number of questions to add (default: 10)',
-            required=False
-        )
-
-    def handle(self, *args, **options):
-        action = options['action']
-
-        if action == 'add':
-            num = options['num']
-            add_dummy_data(num)
-            self.stdout.write(self.style.SUCCESS('Successfully added dummy data.'))
-        elif action == 'remove':
-            remove_dummy_data()
-            self.stdout.write(self.style.SUCCESS('Successfully removed dummy data.'))
