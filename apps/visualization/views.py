@@ -5,7 +5,6 @@ from pyecharts.charts import Pie
 
 from wordcloud import WordCloud
 
-
 from django.shortcuts import render
 from django.http import Http404
 
@@ -18,6 +17,7 @@ from io import BytesIO
 import base64
 import os
 from django.conf import settings
+
 
 def top10_pie_chart(request):
     """
@@ -73,7 +73,7 @@ def _render_pie_chart(datas: list, title: str) -> dict:
             legend_opts=opts.LegendOpts(  # 옵션표
                 orient="vertical",
                 pos_top="15%",
-                pos_left="10%"
+                pos_left="5%"
             ),
         )
         .set_series_opts(
@@ -97,7 +97,8 @@ def _render_pie_chart(datas: list, title: str) -> dict:
     chart = c.render_embed()
     return {'chart': chart}
 
-def drug_count(drug, article_id):       # 워드클라우드 생성을 위한 text 갯수 파악
+
+def drug_count(drug, article_id):  # 워드클라우드 생성을 위한 text 갯수 파악
     count = {}
     for id in article_id:
         words = Word.objects.filter(article_id_id__exact=id)
@@ -109,7 +110,7 @@ def drug_count(drug, article_id):       # 워드클라우드 생성을 위한 te
     return count
 
 
-def wordcloud_maker(count):        # 워드클라우드 생성
+def wordcloud_maker(count):  # 워드클라우드 생성
 
     font_path = os.path.join(settings.BASE_DIR, 'apps',
                              'visualization', 'static', 'font', 'A고딕18.TTF')
