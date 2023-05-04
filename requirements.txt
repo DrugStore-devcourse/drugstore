@@ -44,3 +44,5 @@ tzlocal==4.3
 urllib3==1.26.15
 wcwidth==0.2.6
 zipp==3.15.0
+webdriver-manager==3.8.6
+selenium==4.9.0
