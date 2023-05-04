@@ -1,3 +1,13 @@
-{% load static %} <!DOCTYPE html> {% for i in hello %}
-<h1>{{i}}</h1>
-{% endfor %} <img src={% static 'webpage/images/pigeon_gu_ug.jpg' %}>
+{% load static %} 
+<!DOCTYPE html> 
+<head>
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+</head>
+<body>
+    <div class="drug_list">
+    {% for drug in hot_drugs %}
+        <h1><a href="{% url 'web:detail' drug.id %}">{{drug.drfstf}}</h1>
+    {% endfor %}
+    </div>
+    <p>{{hot_drugs}}</p>
+</body>
