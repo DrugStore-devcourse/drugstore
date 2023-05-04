@@ -25,7 +25,7 @@ def top10_pie_chart(request):
             context = {'error_message': CHART_CREATION_REJECT}
         else:
             with connection.cursor() as cursor:
-                query = "SELECT text, SUM(frequecny) " \
+                query = "SELECT text, SUM(frequency) " \
                         "FROM words " \
                         "WHERE text IN (SELECT drfstf FROM drugs GROUP BY drfstf) " \
                         "GROUP BY text " \
