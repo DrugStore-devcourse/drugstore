@@ -98,7 +98,7 @@ def _render_pie_chart(datas: list, title: str) -> dict:
     return {'chart': chart}
 
 
-def _DrugCount(drug, article_id):  # 워드클라우드 생성을 위한 text 갯수 파악
+def _drug_count(article_id):  # 워드클라우드 생성을 위한 text 갯수 파악
     count = {}
     for id in article_id:
         words = Word.objects.filter(article_id_id__exact=id)
@@ -110,7 +110,7 @@ def _DrugCount(drug, article_id):  # 워드클라우드 생성을 위한 text �
     return count
 
 
-def _WordCloudMaker(count):  # 워드클라우드 생성
+def _word_cloud_maker(count):  # 워드클라우드 생성
 
     font_path = 'static/font/gothic.ttf'
 
@@ -132,8 +132,8 @@ def wordcloud_chart(request, id):
         article_id = [word.article_id.article_id for word in Word.objects.filter(
             text__exact=drug.drfstf)]
 
-        count = _DrugCount(drug, article_id)
-        img_base64 = _WordCloudMaker(count)
+        count = _drug_count(article_id)
+        img_base64 = _word_cloud_maker(count)
         context = {'img_base64': img_base64}
 
     except (Drug.DoesNotExist, Word.DoesNotExist, AttributeError):
