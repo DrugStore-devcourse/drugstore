@@ -2,6 +2,7 @@ from django.test import TestCase, Client
 from django.urls import reverse
 from ..data_api.models import *
 from ..data_collection.models import *
+from django.core.management import call_command
 
 # Create your tests here.
 
