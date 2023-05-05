@@ -4,6 +4,7 @@ from ..data_api.models import *
 from ..data_collection.models import *
 from .constants import *
 from django.http import Http404
+from django.urls import reverse
 import requests
 import logging
 
@@ -41,7 +42,9 @@ def drug_list(request):
 
         context = {'hot_drugs' : hot_drugs}
     try:
-        context['chart'] = requests.get('http://127.0.0.1:8000/chart/top10').text
+        
+        chart_url = "http://" + request.get_host() + reverse('chart:top10_pie_chart')
+        context['chart'] = requests.get(chart_url).text
     except (requests.exceptions.RequestException):
         logging.warning(CHART_LOAD_FAILED)
         context = {'error_message': CHART_CREATION_FAILED}
