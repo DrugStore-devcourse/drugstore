@@ -98,7 +98,7 @@ def _render_pie_chart(datas: list, title: str) -> dict:
     return {'chart': chart}
 
 
-def drug_count(drug, article_id):  # 워드클라우드 생성을 위한 text 갯수 파악
+def _DrugCount(drug, article_id):  # 워드클라우드 생성을 위한 text 갯수 파악
     count = {}
     for id in article_id:
         words = Word.objects.filter(article_id_id__exact=id)
@@ -110,10 +110,9 @@ def drug_count(drug, article_id):  # 워드클라우드 생성을 위한 text �
     return count
 
 
-def wordcloud_maker(count):  # 워드클라우드 생성
+def _WordCloudMaker(count):  # 워드클라우드 생성
 
-    font_path = os.path.join(settings.BASE_DIR, 'apps',
-                             'visualization', 'static', 'font', 'A고딕18.TTF')
+    font_path = 'static/font/gothic.ttf'
 
     wc = WordCloud(font_path=font_path, background_color='white',
                    max_words=1000, max_font_size=100).generate_from_frequencies(count)
@@ -133,12 +132,12 @@ def wordcloud_chart(request, id):
         article_id = [word.article_id.article_id for word in Word.objects.filter(
             text__exact=drug.drfstf)]
 
-        count = drug_count(drug, article_id)
-        img_base64 = wordcloud_maker(count)
+        count = _DrugCount(drug, article_id)
+        img_base64 = _WordCloudMaker(count)
         context = {'img_base64': img_base64}
 
     except (Drug.DoesNotExist, Word.DoesNotExist, AttributeError):
-        raise Http404(CHART_CREATION_REJECT)
+        raise Http404(CHART_CREATION_FAILED)
     except FileNotFoundError:
         context = {'error_message': FILE_NOT_FOUND}
     except:

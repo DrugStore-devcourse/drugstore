@@ -1,0 +1,9 @@
+{% block content %}
+<div class="chart-container">
+  {% if error_message %}
+  <p><strong>{{ error_message }}</strong></p>
+  {% else %}
+  <img src="data:image/png;base64,{{ img_base64 }}" alt="wordcloud" />
+  {% endif %}
+</div>
+{% endblock %}
