@@ -39,8 +39,8 @@ class YeonhapArticleCrawler :
                     contents = self.driver.get_driver().find_element(by=By.CSS_SELECTOR, value="#articleWrap > div.content01.scroll-article-zone01 > div > div > article").find_elements(by=By.TAG_NAME, value="p")
                 
                 for content in contents:
-                    if "@yna.co.kr" in content.text:
-                        break
+                    # if "@yna.co.kr" in content.text:
+                    #     break
                     total_contents += content.text
                     
                 article = {
