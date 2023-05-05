@@ -26,6 +26,7 @@ def drug_list(request):
             mst_sum = {}
             for temp in temps:
                 mst_sum[temp['text']] = mst_sum.get(temp['text'], 0) + temp['frequency']
+            mst_tpl = []
             if len(mst_sum) > 10:
                 mst_tpl = sorted(mst_sum.items(), key=lambda x:x[1], reverse=True)[:10]
             elif 0 < len(mst_sum) and len(mst_sum) <= 10:
