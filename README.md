@@ -21,9 +21,16 @@
     python manage.py makemigrations
     python manage.py migrate
     ```
-5. 더미 데이터 생성 및 삭제 (`{ }`로 표시된 커맨드는 옵션입니다)
+5. 마약 뉴스 크롤러 실행
     ```
-    python manage.py dummydata add {--num 100}
-    python manage.py dummydate remove
+    # article, words 초기화 후 적재
+    python manage.py crawldata
     ```
-   
+
+---
+(선택) 더미 데이터 생성 및 삭제 (`{ }`로 표시된 커맨드는 옵션입니다)
+
+```
+python manage.py dummydata add {--num 100}
+python manage.py dummydate remove
+```
