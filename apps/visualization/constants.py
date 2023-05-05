@@ -1,6 +1,7 @@
 APP_NAME = 'chart'
 TOP10_PIE_CHART = 'top10_pie_chart'
 TOP10_CHART_TITLE = '자주 언급되는 마약 TOP 10'
+WORDCLOUD_CHART = 'wordcloud_chart'
 
 # error_message
 TABLE_NOT_EXIST = "Table does not exist"
