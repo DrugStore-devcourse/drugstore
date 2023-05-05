@@ -6,6 +6,7 @@ from .constants import *
 from django.http import Http404
 from django.urls import reverse
 from apps.visualization.views import _render_pie_chart
+from django.db.models import Sum
 import requests
 import logging
 
@@ -20,13 +21,21 @@ def drug_list(request):
         else:
             drugs = Drug.objects.all().only('id', 'drfstf', 'drfstf_eng', 'drug_no', 'type_code').values()
             names = [drug['drfstf'] for drug in drugs]
-            if len(Word.objects.all().values()) <= 10:
-                mosts = Word.objects.all().filter(text__in=names).order_by('-frequency').values()
-            else:
-                mosts = Word.objects.all().filter(text__in=names).order_by('-frequency').values()[:10]
+            temps = Word.objects.all().filter(text__in=names)\
+                                          .values('text', 'frequency')
+            mst_sum = {}
+            for temp in temps:
+                mst_sum[temp['text']] = mst_sum.get(temp['text'], 0) + temp['frequency']
+            if len(mst_sum) > 10:
+                mst_tpl = sorted(mst_sum.items(), key=lambda x:x[1], reverse=True)[:10]
+            elif 0 < len(mst_sum) and len(mst_sum) <= 10:
+                mst_tpl = sorted(mst_sum.items(), key=lambda x:x[1], reverse=True)
+            
+            if len(mst_tpl):
+                for ele in mst_tpl:
+                    mosts.append({'text':ele[0], 'frequency':ele[1]})
     except(Drug.DoesNotExist, Word.DoesNotExist):
         raise Http404("데이터가 없습니다.")
-
     charts = []
     if len(mosts) == 0:
         logging.warning(DRUGS_NOT_IN_WORDS)
