@@ -11,13 +11,14 @@
       "side_effect": "고혈압, 심계항진, 불면, 초조, 어지러움(dizziness), 구갈, 오심, 흉부 압박감, 서맥, 부정맥, 협심증, 중증의 두통, 불안, 신경과민, 초조,  배뇨곤란",
       "medication": "",
       "del_field": false,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 2,
       "drug_no": "T11",
       "drfstf": "노르슈도에페드린",
       "drfstf_eng": "Norpseudoephedrine",
@@ -26,14 +27,14 @@
       "side_effect": "신경과민, 운동항진, 불면",
       "medication": "",
       "del_field": false,
-      "id": 2,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 3,
       "drug_no": "T10",
       "drfstf": "사이로빈 버섯",
       "drfstf_eng": "Psilocybin Mushrooms",
@@ -42,14 +43,14 @@
       "side_effect": "",
       "medication": "   이 버섯은 불법적인 마약이나 술과 함께 하거나 단독으로 할 수 있다. 버섯의 갓과 즐기는 신선한 상태나 말린 상태로 먹기도 하며 쓴맛 때문에 가루로 빻아서 캡슐에 넣어 복용하기도 한다. 차로 끓여서 사용하기도 하며 종종 다른 음식에 첨가하여 먹기도 하는데, 어떤 사용자들은 말린 이 버섯을 마리화나와 함께 담배로 피우기도 한다",
       "del_field": false,
-      "id": 3,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 4,
       "drug_no": "T09",
       "drfstf": "날부핀",
       "drfstf_eng": "Nalbuphine",
@@ -58,14 +59,14 @@
       "side_effect": "",
       "medication": "  염산날부핀은 앰플의 형태로 판매되고 있어 피하, 근육 및 정맥주사의 형태로 투약되는데 상용량은 70kg인 사람을 기준으로 할 때 1회 10mg을 3-6시간마다 주사하나 남용자의 경우에는 상용량의 20배를 투약하여 중추신경 억제와 환각성의 발현을 도모하고 있다.",
       "del_field": false,
-      "id": 4,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 5,
       "drug_no": "T08",
       "drfstf": "카트",
       "drfstf_eng": "Khat",
@@ -74,14 +75,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 5,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 6,
       "drug_no": "T06",
       "drfstf": "GHB",
       "drfstf_eng": "GHB",
@@ -90,14 +91,14 @@
       "side_effect": "",
       "medication": "GHB 는 거리에서 액체나 분말 상태로 쉽게 구할 수 있고 보다 일반적으로 이용되고 있는 것은 액체상태이다. GHB를 정제와 캅셀화 하고 있다는 보고 있다. 1회분 가격은 $5~10 정도이며, 주로 분말, 캡슐 또는 물, 탄산음료, 이온음료, 술 등의 액체와 혼합하여 복용하거나 드물게 주사하기도 하며, 일회용량으로 분말 1～3g을 복용한다고 한다.",
       "del_field": false,
-      "id": 6,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 7,
       "drug_no": "T05",
       "drfstf": "카리소프로돌",
       "drfstf_eng": "Carisoprodol",
@@ -106,14 +107,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 7,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 8,
       "drug_no": "T04",
       "drfstf": "덱스트로메토르판",
       "drfstf_eng": "Dextromethorphan",
@@ -122,14 +123,14 @@
       "side_effect": "",
       "medication": "  정제형태로 되어 있어 경구로 남용하는데, 보통 남용자의 경우 덱스트로메토르판을 15mg함유하고 있는 정제를 30~40정 정도로 복용하며 내성이 쉽게 발현되어 상습 남용자는 100여정까지도 복용하게 된다.",
       "del_field": false,
-      "id": 8,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 9,
       "drug_no": "T03",
       "drfstf": "아편",
       "drfstf_eng": "Opium",
@@ -138,14 +139,14 @@
       "side_effect": "",
       "medication": "   헤로인과 모르핀은 주로 주사로 복용 되나 아편과 같이 흡연하기도 하고 코점막으로 흡입하기도 하는 반면, 아편은 흡연하거나 코점막을 통해 snort한다. Codeine, Oxycodone과 hydrocodone은 경구로 투여되나 다른 opioid는 주사로 투여된다.",
       "del_field": false,
-      "id": 9,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 10,
       "drug_no": "T02",
       "drfstf": "4-메칠치오암페타민",
       "drfstf_eng": "4-methylthioamphetamine",
@@ -154,14 +155,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 10,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 11,
       "drug_no": "T01",
       "drfstf": "메칠펜타닐",
       "drfstf_eng": "Methylfentanyl",
@@ -170,14 +171,14 @@
       "side_effect": "",
       "medication": "통상 정맥주사로 투여하지만 연기로 흡입하기도 한다고 한다.",
       "del_field": false,
-      "id": 11,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 12,
       "drug_no": "P99",
       "drfstf": "브롬디에칠아세칠우레아",
       "drfstf_eng": "Bromdiethylacetylurea",
@@ -186,14 +187,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 12,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 13,
       "drug_no": "P98",
       "drfstf": "아릴이소프로필아세칠우레아",
       "drfstf_eng": "Allylisopropylacetylurea",
@@ -202,14 +203,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 13,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 14,
       "drug_no": "P97",
       "drfstf": "펜타조신",
       "drfstf_eng": "Pentazocine",
@@ -218,14 +219,14 @@
       "side_effect": "근신경 및 골격계 쇠약, 오심, 구토, 쾌감, 졸음, 시야몽롱, 요관경련, 저혈압, 구갈, 권태, 두통, 초조, 악몽, 피부발진, 호흡곤란, 내분비계 및 대사로 항이뇨호르몬(ADH) 분비, 눈의 축동, 심계항진, 서맥, 말초혈관확장, 위장장애, 변비, 불면, 중추신경계 억제, 진정, 환각, 혼동, 방향감 상실, 발작(경련의 소인이 있는 환자), 뇌압상승, 피부소양증, 담도경련, 요도경련, histamine 유리, 육체적, 정신적 의존성",
       "medication": "",
       "del_field": false,
-      "id": 14,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 15,
       "drug_no": "P96",
       "drfstf": "썰폰메탄",
       "drfstf_eng": "Sulfonmethane",
@@ -234,14 +235,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 15,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 16,
       "drug_no": "P95",
       "drfstf": "썰폰에칠메탄",
       "drfstf_eng": "Sulfonethylmethane",
@@ -250,14 +251,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 16,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 17,
       "drug_no": "P94",
       "drfstf": "썰폰디에칠메탄",
       "drfstf_eng": "Sulfondiethylmethane",
@@ -266,14 +267,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 17,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 18,
       "drug_no": "P93",
       "drfstf": "메치푸리론",
       "drfstf_eng": "Methyprylon",
@@ -282,14 +283,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 18,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 19,
       "drug_no": "P92",
       "drfstf": "메프로바메이트",
       "drfstf_eng": "Meprobamate",
@@ -298,14 +299,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 19,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 20,
       "drug_no": "P91",
       "drfstf": "리저직산 아미드",
       "drfstf_eng": "Lysergic acid amide",
@@ -314,14 +315,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 20,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 21,
       "drug_no": "P90",
       "drfstf": "리저직산",
       "drfstf_eng": "Lysergic acid",
@@ -330,14 +331,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 21,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 22,
       "drug_no": "P89",
       "drfstf": "구루테치미드",
       "drfstf_eng": "Glutethimide",
@@ -346,14 +347,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 22,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 23,
       "drug_no": "P88",
       "drfstf": "크로로헥사돌",
       "drfstf_eng": "Chlorhexadol",
@@ -362,14 +363,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 23,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 24,
       "drug_no": "P87",
       "drfstf": "치아미랄",
       "drfstf_eng": "Thiamylal",
@@ -378,14 +379,14 @@
       "side_effect": "오심, 근육의 불수의 운동, 부정맥, 타액분비 과다, 두통, 현기증, 경련, 흥분, 기침, 딸꾹질, 발한, 안면홍조, 복시, 마비감, 쇼크",
       "medication": "",
       "del_field": false,
-      "id": 24,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 25,
       "drug_no": "P86",
       "drfstf": "엘도랄",
       "drfstf_eng": "Eldoral",
@@ -394,14 +395,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 25,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 26,
       "drug_no": "P85",
       "drfstf": "펜테날",
       "drfstf_eng": "Pentenal",
@@ -410,14 +411,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 26,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 27,
       "drug_no": "P84",
       "drfstf": "시그모달",
       "drfstf_eng": "Sigmodal",
@@ -426,14 +427,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 27,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 28,
       "drug_no": "P83",
       "drfstf": "카르부바르비탈",
       "drfstf_eng": "Carbubarbital",
@@ -442,14 +443,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 28,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 29,
       "drug_no": "P82",
       "drfstf": "비닐비탈",
       "drfstf_eng": "Vinylbital",
@@ -458,14 +459,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 29,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 30,
       "drug_no": "P81",
       "drfstf": "레포살",
       "drfstf_eng": "Reposal",
@@ -474,30 +475,30 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 30,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 31,
       "drug_no": "P80",
       "drfstf": "이도부탈",
-      "drfstf_eng": "idobutal",
+      "drfstf_eng": "Idobutal",
       "type_code": "향정신성의약품",
       "pharm": "",
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 31,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 32,
       "drug_no": "P79",
       "drfstf": "도르모비트",
       "drfstf_eng": "Dormovit",
@@ -506,14 +507,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 32,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 33,
       "drug_no": "P78",
       "drfstf": "디베랄",
       "drfstf_eng": "Diberal",
@@ -522,14 +523,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 33,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 34,
       "drug_no": "P77",
       "drfstf": "바로타룸",
       "drfstf_eng": "Barotalum",
@@ -538,14 +539,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 34,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 35,
       "drug_no": "P76",
       "drfstf": "빈바르비탈",
       "drfstf_eng": "Vinbarbital",
@@ -554,14 +555,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 35,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 36,
       "drug_no": "P75",
       "drfstf": "치오펜탈",
       "drfstf_eng": "Thiopental",
@@ -570,14 +571,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 36,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 37,
       "drug_no": "P74",
       "drfstf": "테트라바르비탈",
       "drfstf_eng": "Tetrabarbital",
@@ -586,14 +587,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 37,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 38,
       "drug_no": "P73",
       "drfstf": "스피로치오바르비탈",
       "drfstf_eng": "Spirothionbarbital",
@@ -602,14 +603,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 38,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 39,
       "drug_no": "P72",
       "drfstf": "프로필바르비탈",
       "drfstf_eng": "Propylbarbital",
@@ -618,14 +619,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 39,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 40,
       "drug_no": "P71",
       "drfstf": "프로파리로날",
       "drfstf_eng": "Propallylonal",
@@ -634,14 +635,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 40,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 41,
       "drug_no": "P70",
       "drfstf": "프로바르비탈",
       "drfstf_eng": "Probarbital",
@@ -650,14 +651,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 41,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 42,
       "drug_no": "P69",
       "drfstf": "페타아비탈",
       "drfstf_eng": "Phetharbital",
@@ -666,14 +667,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 42,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 43,
       "drug_no": "P68",
       "drfstf": "페노바르비탈",
       "drfstf_eng": "Phenobarbital",
@@ -682,14 +683,14 @@
       "side_effect": "주사부위 통증, 정맥주사시 혈전성 정맥염, 저혈압, 심부정맥, 서맥, 동맥경련, 부주의하게 동맥내 투여된 경우 괴저(gangrene) 발생, 어지러움(dizziness), 현기증(lightheadedness), 숙취\r\n(hangover effect), 졸음, 기면, 중추신경계 흥분 또는 억제, 판단력 저하, 오심, 구토, 변비, 혼동, 의식저하, 비정상적인 흥분, 신경과민, 기절감, 두통, 불면, 악몽, 저혈압, 환각, 저체온증, 박탈성 피부염(exfoliative dermatitis), Stevens-Johnson 증후군, 피부발진, 무과립구증, 거대적아구성 빈혈, 혈소판감소증, 후두경련, 호흡저하, 무호흡 (특히 빠르게 정맥주사할 경우)",
       "medication": "",
       "del_field": false,
-      "id": 43,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 44,
       "drug_no": "P67",
       "drfstf": "펜토바르비탈",
       "drfstf_eng": "Pentobarbital",
@@ -698,14 +699,14 @@
       "side_effect": "주사부위 통증, 정맥주사시 혈전성 정맥염, 심부정맥, 서맥, 저혈압, 동맥경련, 부주의하게 동맥내 투여된 경우 괴저(gangrene) 발생, 졸음, 기면, 중추신경계 흥분 또는 억제, 판단력 저하, 숙취(hangover effect), 오심, 구토, 변비, 혼동, 의식저하, 비정상적인 흥분, 신경과민, 기절감, 두통, 불면, 악몽, 저체온증, 혈전성 정맥염, 저혈압, 환각, 피부발진, 박탈성 피부염(exfoliative dermatitis), Stevens-Johnson 증후군, 무과립구증, 혈소판감소증, 거대적아구성 빈혈, 후두경련, 호흡저하, 무호흡 (특히 빠르게 정맥주사할 경우)",
       "medication": "",
       "del_field": false,
-      "id": 44,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 45,
       "drug_no": "P66",
       "drfstf": "네알바르비탈",
       "drfstf_eng": "Nealbarbital",
@@ -714,14 +715,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 45,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 46,
       "drug_no": "P65",
       "drfstf": "니아코바르비탈",
       "drfstf_eng": "Narcobarbital",
@@ -730,14 +731,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 46,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 47,
       "drug_no": "P64",
       "drfstf": "메칠페노바르비탈",
       "drfstf_eng": "Methylphenobarbital",
@@ -746,14 +747,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 47,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 48,
       "drug_no": "P63",
       "drfstf": "메토헥시탈",
       "drfstf_eng": "Methohexital",
@@ -762,158 +763,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 48,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
-      "drug_no": "P62",
-      "drfstf": "메타아비탈",
-      "drfstf_eng": "Metharbital",
-      "type_code": "향정신성의약품",
-      "pharm": "",
-      "side_effect": "",
-      "medication": "",
-      "del_field": false,
-      "id": 49,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
-    }
-  },
-  {
-    "model": "data_api.Drug",
-    "fields": {
-      "drug_no": "P60",
-      "drfstf": "헥세탈",
-      "drfstf_eng": "Hexethal",
-      "type_code": "향정신성의약품",
-      "pharm": "",
-      "side_effect": "",
-      "medication": "",
-      "del_field": false,
-      "id": 51,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
-    }
-  },
-  {
-    "model": "data_api.Drug",
-    "fields": {
-      "drug_no": "P59",
-      "drfstf": "헵토바르비탈",
-      "drfstf_eng": "Heptobarbital",
-      "type_code": "향정신성의약품",
-      "pharm": "",
-      "side_effect": "",
-      "medication": "",
-      "del_field": false,
-      "id": 52,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
-    }
-  },
-  {
-    "model": "data_api.Drug",
-    "fields": {
-      "drug_no": "P57",
-      "drfstf": "에트아로바르비탈",
-      "drfstf_eng": "Ethallobarbital",
-      "type_code": "향정신성의약품",
-      "pharm": "",
-      "side_effect": "",
-      "medication": "",
-      "del_field": false,
-      "id": 54,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
-    }
-  },
-  {
-    "model": "data_api.Drug",
-    "fields": {
-      "drug_no": "P56",
-      "drfstf": "엔아릴푸로피말",
-      "drfstf_eng": "Enallylpropymal",
-      "type_code": "향정신성의약품",
-      "pharm": "",
-      "side_effect": "",
-      "medication": "",
-      "del_field": false,
-      "id": 55,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
-    }
-  },
-  {
-    "model": "data_api.Drug",
-    "fields": {
-      "drug_no": "P54",
-      "drfstf": "싸이크로바르비탈",
-      "drfstf_eng": "Cyclobarbital",
-      "type_code": "향정신성의약품",
-      "pharm": "",
-      "side_effect": "",
-      "medication": "",
-      "del_field": false,
-      "id": 57,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
-    }
-  },
-  {
-    "model": "data_api.Drug",
-    "fields": {
-      "drug_no": "P53",
-      "drfstf": "부토바르비탈",
-      "drfstf_eng": "Butobarbital",
-      "type_code": "향정신성의약품",
-      "pharm": "",
-      "side_effect": "",
-      "medication": "",
-      "del_field": false,
-      "id": 58,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
-    }
-  },
-  {
-    "model": "data_api.Drug",
-    "fields": {
-      "drug_no": "P49",
-      "drfstf": "부라로바르비탈",
-      "drfstf_eng": "Brallobarbital",
-      "type_code": "향정신성의약품",
-      "pharm": "",
-      "side_effect": "",
-      "medication": "",
-      "del_field": false,
-      "id": 62,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
-    }
-  },
-  {
-    "model": "data_api.Drug",
-    "fields": {
-      "drug_no": "P48",
-      "drfstf": "바르비탈",
-      "drfstf_eng": "Barbital",
-      "type_code": "향정신성의약품",
-      "pharm": "",
-      "side_effect": "",
-      "medication": "",
-      "del_field": false,
-      "id": 63,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
-    }
-  },
-  {
-    "model": "data_api.Drug",
-    "fields": {
+      "id": 65,
       "drug_no": "P46",
       "drfstf": "아모바르비탈",
       "drfstf_eng": "Amobarbital",
@@ -922,14 +779,14 @@
       "side_effect": "어지러움(dizziness), 현기증(lightheadedness), 숙취 (hangover effect), 졸음, 중추신경계 억제, 발열, 오심, 구토, 변비, 혼동, 의식저하, 비정상적인 흥분, 신경과민, 기절감, 두통, 불면, 악몽, 혈전성 정맥염, 저혈압, 환각, 피부발진, 박탈성 피부염(exfoliative dermatitis), Stevens-Johnson 증후군, 무과립구증, 거대적아구성 빈혈, 혈소판감소증, 호흡저하, 무호흡, 후두경련",
       "medication": "",
       "del_field": false,
-      "id": 65,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 66,
       "drug_no": "P45",
       "drfstf": "알페날",
       "drfstf_eng": "Alphenal",
@@ -938,14 +795,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 66,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 67,
       "drug_no": "P44",
       "drfstf": "아로바르비탈",
       "drfstf_eng": "Allobarbital",
@@ -954,14 +811,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 67,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 68,
       "drug_no": "P43",
       "drfstf": "지페프롤",
       "drfstf_eng": "Zipeprol",
@@ -970,14 +827,14 @@
       "side_effect": "오심, 변비, 졸음, 어지러움(dizziness)등이 있을 수 있으며, 과량복용시는 약물남용 및 의존성이 생길 수 있다.",
       "medication": "",
       "del_field": false,
-      "id": 68,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 69,
       "drug_no": "P42",
       "drfstf": "세코르바르비탈",
       "drfstf_eng": "Secobarbital",
@@ -986,14 +843,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 69,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 70,
       "drug_no": "P41",
       "drfstf": "벤즈페타민",
       "drfstf_eng": "Benzphetamine",
@@ -1002,14 +859,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 70,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 71,
       "drug_no": "P40",
       "drfstf": "펜캄파민",
       "drfstf_eng": "Fencamfamin",
@@ -1018,14 +875,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 71,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 72,
       "drug_no": "P39",
       "drfstf": "엔-에칠-암페타민",
       "drfstf_eng": "N-ethylamphetamine",
@@ -1034,14 +891,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 72,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 73,
       "drug_no": "P38",
       "drfstf": "페네틸린",
       "drfstf_eng": "Fenetylline",
@@ -1050,14 +907,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 73,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 74,
       "drug_no": "P37",
       "drfstf": "엠디엠에이",
       "drfstf_eng": "MDMA",
@@ -1066,14 +923,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 74,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 75,
       "drug_no": "P36",
       "drfstf": "2,5-디메톡시-4-에칠-암페타민",
       "drfstf_eng": "2,5-dimethoxy-4-ethylamphetamine",
@@ -1082,14 +939,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 75,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 76,
       "drug_no": "P35",
       "drfstf": "케치논",
       "drfstf_eng": "Cathinone",
@@ -1098,14 +955,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 76,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 77,
       "drug_no": "P34",
       "drfstf": "펜프로포렉스",
       "drfstf_eng": "Fenproporex",
@@ -1114,14 +971,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 77,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 78,
       "drug_no": "P33",
       "drfstf": "펜사이크리딘",
       "drfstf_eng": "Phencyclidine",
@@ -1130,14 +987,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 78,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 79,
       "drug_no": "P32",
       "drfstf": "메타콰론",
       "drfstf_eng": "Methaqualone",
@@ -1146,14 +1003,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 79,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 80,
       "drug_no": "P31",
       "drfstf": "메크로콰론",
       "drfstf_eng": "Mecloqualone",
@@ -1162,14 +1019,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 80,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 81,
       "drug_no": "P30",
       "drfstf": "펜메트라진",
       "drfstf_eng": "Phenmetrazine",
@@ -1178,14 +1035,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 81,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 82,
       "drug_no": "P29",
       "drfstf": "메칠페니데이트",
       "drfstf_eng": "Methylphenidate",
@@ -1194,14 +1051,14 @@
       "side_effect": "빈맥, 식욕부진, 신경과민, 불면, 위통, 현기, 졸음, 기타  과민반응, 성장지연, 시야몽롱, 고혈압, 저혈압, 심계항진, 심부정맥,  오심, 체중 감소, 구토, 운동장애, Tourette 증후군의 악화, 발열, 두통, 경련, 피부발진, 혈소판감소증, 빈혈, 백혈구감소증",
       "medication": "",
       "del_field": false,
-      "id": 82,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 83,
       "drug_no": "P28",
       "drfstf": "하이드록시암페타민",
       "drfstf_eng": "Hydroxyamphetamine",
@@ -1210,14 +1067,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 83,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 84,
       "drug_no": "P27",
       "drfstf": "메스암페타민",
       "drfstf_eng": "Methamphetamine",
@@ -1226,14 +1083,14 @@
       "side_effect": "",
       "medication": "  메스암페타민의 남용방법은 주로 정맥이나 피하주사로 투여되지만 경구, 코점막흡수, 흡연 등으로도 사용되는데, 우리나라에서는 대부분이 정맥주사에 의해 남용된다. 이 약물의 염산염 형태를 10～30mg정도 물에 녹혀 정맥 주사하는데, 심한경우는 2-3시간마다 500-1000mg을 주사하기도 한다. 경구투여하면 위장관을 통해 잘 흡수되며 신체 각 부위에 잘 분포되며, 흡연에 의해 폐로 흡수되든가 snorting에 의해 코점막으로 흡수된다. 남용자들은 암페타민의 경우는 가끔 사용하는 사람은 5～15mg을, 남용자는 매일 100～1000mg을 경구나 코점막으로 섭취한다고 한다. 최근 미국에서는 ice라는 이름으로 통용되는 (d)체의 메스암페타민을 쿠킹호일과 버너를 이용하여 흡연하는 방법으로 남용하는 것으로 알려져 있다. \r\n   정맥또는 흡입에의해 남용자들은 몇분동안 지속되는 아주 즐거운 상태가 되는 “rush\" 또는 ‘flush\"라고 알려진 강한 감동을 경험하게 되는 반면, 경구 또는 코점막에 의해서는 기분이 좋은 안락감을 느낀다고 한다. 흡연이나 주사에 의해서는 작용이 빨라 5-10초안에 효과가 나타나며, 코점막에의해서는 3-5분, 경구투여에 의해서는 15-20분이내에 효과가 나타난다고 한다. 상용량은 10mg으로 알려져 있으나 약물 남용자들은 보통 30mg을 정맥주사 하는 것으로 알려져 있다.",
       "del_field": false,
-      "id": 84,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 85,
       "drug_no": "P26",
       "drfstf": "레브암페타민",
       "drfstf_eng": "Levamphetamine",
@@ -1242,14 +1099,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 85,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 86,
       "drug_no": "P25",
       "drfstf": "덱스암페타민",
       "drfstf_eng": "Dexamphetamine",
@@ -1258,14 +1115,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 86,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 87,
       "drug_no": "P24",
       "drfstf": "암페타민",
       "drfstf_eng": "Amphetamine",
@@ -1274,14 +1131,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 87,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 88,
       "drug_no": "P23",
       "drfstf": "에트립타민",
       "drfstf_eng": "Etryptamine",
@@ -1290,14 +1147,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 88,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 89,
       "drug_no": "P22",
       "drfstf": "메스케치논",
       "drfstf_eng": "Methcathinone",
@@ -1306,14 +1163,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 89,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 90,
       "drug_no": "P21",
       "drfstf": "펜사이클리딘의 동족체",
       "drfstf_eng": "Phencyclidine analogues",
@@ -1322,14 +1179,14 @@
       "side_effect": "",
       "medication": "   PCP는 담배로 피우거나 코로 흡입해 주사 또는 구강투여를 하는데 담배로 피우는 방법이 PCP의 사용자의 75%에 해당되며, 담배로 피울 때는 사용자가 2분 이내 그 효과를 느낄 수 있다.  PCP는 담배를 피우기 위해 용액에 궐련을 담궜다가 피우게 된다. PCP로 사용하던 인기 있는 궐련의 상표는 Shermans 이고, 거리에서는 Sherms, sermies or Sherm stick 불리고 있다.  액체 PCP는 뿌릴 수도 있고 적실 수도 있다. 파슬리 잎, 박화, 토바코, 마리화나 또는 다른 담배로 채울 수 있는 채소에 PCP가루를  뿌리거나 말아서 이용한다.",
       "del_field": false,
-      "id": 90,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 91,
       "drug_no": "P20",
       "drfstf": "싸이로신",
       "drfstf_eng": "Psilocin",
@@ -1338,14 +1195,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 91,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 92,
       "drug_no": "P19",
       "drfstf": "싸이로시빈",
       "drfstf_eng": "Psilocybin",
@@ -1354,14 +1211,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 92,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 93,
       "drug_no": "P18",
       "drfstf": "페이오트",
       "drfstf_eng": "Peyote",
@@ -1370,14 +1227,14 @@
       "side_effect": "",
       "medication": "● 섭취 \r\n페이요트는 신선한 것이든 말린 것이든 보통 씹어서 삼켰다 1회 정상적인 양은 4개에서 12개 범위이다. 많은 사용자들은 페이요트 맛이 지독하게 쓰고 구역질이 나는 것을 알게된다. 이것을 방지하기 위해 제라틴 캡슐에 넣는다. 페이요트를 끓여서 농도가 짙고 까만차로 만든다. 드물게는 가루로 만들어 마리화나 또는 다른 식물과 함께 담배로 피운다.",
       "del_field": false,
-      "id": 93,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 94,
       "drug_no": "P17",
       "drfstf": "파라헥실",
       "drfstf_eng": "Parahexyl",
@@ -1386,14 +1243,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 94,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 95,
       "drug_no": "P169",
       "drfstf": "크라톰",
       "drfstf_eng": "Kratom",
@@ -1402,14 +1259,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 95,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 96,
       "drug_no": "P168",
       "drfstf": "2C-B",
       "drfstf_eng": "2C-B",
@@ -1418,14 +1275,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 96,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 97,
       "drug_no": "P167",
       "drfstf": "디메칠암페타민",
       "drfstf_eng": "Dimethylamphetamine",
@@ -1434,14 +1291,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 97,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 98,
       "drug_no": "P166",
       "drfstf": "케타민",
       "drfstf_eng": "Ketamine",
@@ -1450,14 +1307,14 @@
       "side_effect": "",
       "medication": "  케타민은 수술을 하기위한 마취제이고 정맥주사를 하도록 제조 되고 있다. 정맥주사를 하면 신속히 마취가 되고 30초 의식이 없게 된다. 대부분의 케타민 남용자는 근육주사,코로 흡입 하거나 ,구강투여를 하고 있다. 코로 흡입 또는 구강 소비를 하기위해 액체를 끓여서 분말로 만든다.  \r\n  분말을 코카인 과같이 코로 흡입하거나 물에 타서 마신다. 코로 흡입하거나 마신 경우에는 효과가 5-10분내에 시작된다.근육주사를 하는 경우에는 2-5분 내에 느낀다.\r\n",
       "del_field": false,
-      "id": 98,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 99,
       "drug_no": "P165",
       "drfstf": "메소카브",
       "drfstf_eng": "Mesocarb",
@@ -1466,14 +1323,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 99,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 100,
       "drug_no": "P164",
       "drfstf": "아미노렉스",
       "drfstf_eng": "Aminorex",
@@ -1482,14 +1339,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 100,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 101,
       "drug_no": "P163",
       "drfstf": "졸피뎀",
       "drfstf_eng": "Zolpidem",
@@ -1498,14 +1355,14 @@
       "side_effect": "근육통, 오심, 설사, 두통, 졸음, 어지러움, 진전, 구토, 건망증, 혼동",
       "medication": "",
       "del_field": false,
-      "id": 101,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 102,
       "drug_no": "P162",
       "drfstf": "멕사졸람",
       "drfstf_eng": "Mexazolam",
@@ -1514,14 +1371,14 @@
       "side_effect": "졸음, 간의 GOT/GPT 및 alkaline phosphatase 상승, 근긴장 저하, 성욕 감퇴, 기립성 저혈압, 저혈압, 구갈, 오심, 구토, 식욕부진, 위부 불쾌감, 위트림, 위통, 복통, 설사, 현기증, 균형감 상실, 두통, 두중감, 건망증, 섬망, 운동실조, 비정상적 꿈, 권태, 피부발진, 백혈구감소증, 적혈구감소증, 혈색소량 감소",
       "medication": "",
       "del_field": false,
-      "id": 102,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 103,
       "drug_no": "P161",
       "drfstf": "플루토프라제팜",
       "drfstf_eng": "Flutoprazepam",
@@ -1530,14 +1387,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 103,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 104,
       "drug_no": "P160",
       "drfstf": "조피클론",
       "drfstf_eng": "Zopiclone",
@@ -1546,14 +1403,14 @@
       "side_effect": "쓴 맛, 진전, 구갈, 졸음, 두통, 어지러움, 초조, 피로, 악몽, 숙취 효과, 오심, 구토, 상복부 통증, 설사, 변비, 건망증, 육체적 의존성",
       "medication": "",
       "del_field": false,
-      "id": 104,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 105,
       "drug_no": "P16",
       "drfstf": "엔-메칠-3-피레리딜 벤질레이트",
       "drfstf_eng": "N-methyl-3-piperidylbenzilate",
@@ -1562,14 +1419,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 105,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 106,
       "drug_no": "P159",
       "drfstf": "트리아졸람",
       "drfstf_eng": "Triazolam",
@@ -1578,14 +1435,14 @@
       "side_effect": "구음장애(dysarthria), 성욕 감소, 시야몽롱, 빈맥, 흉통, 구갈, 타액분비 감소, 변비, 오심, 구토, 설사, 식욕 증가나 감소, 졸음, 피로, 협조 장애(impaired coordination), 현기증, 기억 장애, 불면, 불안, 우울, 두통, 피부발진, 발한",
       "medication": "",
       "del_field": false,
-      "id": 106,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 107,
       "drug_no": "P158",
       "drfstf": "테트라제팜",
       "drfstf_eng": "Tetrazepam",
@@ -1594,14 +1451,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 107,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 108,
       "drug_no": "P157",
       "drfstf": "테마제팜",
       "drfstf_eng": "Temazepam",
@@ -1610,14 +1467,14 @@
       "side_effect": "불면증, 근심, 공항, 식욕 감퇴, 메스꺼움, 떨림, 그리고 때때로 환각을 포함한 금단 증상들이 나타난다.",
       "medication": "",
       "del_field": false,
-      "id": 108,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 109,
       "drug_no": "P156",
       "drfstf": "피로발레론",
       "drfstf_eng": "Pyrovalerone",
@@ -1626,14 +1483,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 109,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 110,
       "drug_no": "P155",
       "drfstf": "피리칠디온",
       "drfstf_eng": "Pyrithyldione",
@@ -1642,14 +1499,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 110,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 111,
       "drug_no": "P154",
       "drfstf": "프로필헥세드린",
       "drfstf_eng": "Propylhexedrine",
@@ -1658,14 +1515,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 111,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 112,
       "drug_no": "P153",
       "drfstf": "프라제팜",
       "drfstf_eng": "Prazepam",
@@ -1674,14 +1531,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 112,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 113,
       "drug_no": "P152",
       "drfstf": "피프라드롤(알파 또는 감마)",
       "drfstf_eng": "Pipradol",
@@ -1690,14 +1547,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 113,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 114,
       "drug_no": "P151",
       "drfstf": "피나제팜",
       "drfstf_eng": "Pinazepam",
@@ -1706,14 +1563,14 @@
       "side_effect": "이명, 복시, 시야몽롱, 심계항진, 오심, 구토, 설사, 변비, 식욕부진, 구갈, 위부 불쾌감, 팽만감, 복부통, 가슴앓이, 졸음, 어지러움, 비틀거림, 두중감, 두통, 두부 압박감, 불면, 보행실조, 권태감, 탈력감, 소양감, 발진",
       "medication": "",
       "del_field": false,
-      "id": 114,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 115,
       "drug_no": "P150",
       "drfstf": "펜터민",
       "drfstf_eng": "Phentermine",
@@ -1722,14 +1579,14 @@
       "side_effect": "부작용으로는 입의 마름, 불면증, 흥분, 위경련, 변비가 약에 대해 몸이 조절하기 위해 우선 며칠동안 발생한다. 만약 이런 효과가 지속될 수 있다.",
       "medication": "",
       "del_field": false,
-      "id": 115,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 116,
       "drug_no": "P15",
       "drfstf": "메스카린",
       "drfstf_eng": "Mescaline",
@@ -1738,14 +1595,14 @@
       "side_effect": "",
       "medication": "페이요트는 신선한 것이든 말린 것이든 보통 씹어서 삼켰다 1회 정상적인 양은 4개에서 12개 범위이다. 많은 사용자들은 페이요트 맛이 지독하게 쓰고 구역질이 나는 것을 알게된다. 이것을 방지하기 위해 제라틴 캡슐에 넣는다. 페이요트를 끓여서 농도가 짙고 까만차로 만든다. 드물게는 가루로 만들어 마리화나 또는 다른 식물과 함께 담배로 피운다.",
       "del_field": false,
-      "id": 116,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 117,
       "drug_no": "P149",
       "drfstf": "펜티메트라진",
       "drfstf_eng": "Phendimetrazine",
@@ -1754,14 +1611,14 @@
       "side_effect": "펜디메트라진 과용시 증상은 불안감, 떨림, 빠른 호흡, 환각, 혼동, 공포, 메스꺼움, 구토, 불규칙한 심장박동, 발작을 일으키게 된다.",
       "medication": "",
       "del_field": false,
-      "id": 117,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 118,
       "drug_no": "P148",
       "drfstf": "페트리클로랄",
       "drfstf_eng": "Petrichloral",
@@ -1770,14 +1627,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 118,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 119,
       "drug_no": "P147",
       "drfstf": "페몰린",
       "drfstf_eng": "Pemoline",
@@ -1786,14 +1643,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 119,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 120,
       "drug_no": "P146",
       "drfstf": "파르알데히드",
       "drfstf_eng": "Paraldehyde",
@@ -1802,14 +1659,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 120,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 121,
       "drug_no": "P145",
       "drfstf": "옥시퍼어틴",
       "drfstf_eng": "Oxypertine",
@@ -1818,14 +1675,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 121,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 122,
       "drug_no": "P144",
       "drfstf": "옥사졸람",
       "drfstf_eng": "Oxazolam",
@@ -1834,14 +1691,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 122,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 123,
       "drug_no": "P143",
       "drfstf": "옥사제팜",
       "drfstf_eng": "Oxazepam",
@@ -1850,14 +1707,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 123,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 124,
       "drug_no": "P142",
       "drfstf": "놀라제팜(데메칠다이제팜)",
       "drfstf_eng": "Nordazepam",
@@ -1866,14 +1723,14 @@
       "side_effect": "황달, 성욕 변화, 뇨저류, 실금, 빈맥, 저혈압, 오심, 구토, 식욕부진, 변비, 구갈, 타액분비 변화, 졸음, 협조 장애, 현기증, 운동실조, 보행실조, 피로, 두통, 언어장애, 권태, 탈력감, 피부발진, 호흡 억제, 부종, 진전, 시야몽롱, 복시, 안구진탕증, 실신, 혼동, 우울, 쾌감, 백혈구감소증, 호중구감소증",
       "medication": "",
       "del_field": false,
-      "id": 124,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 125,
       "drug_no": "P141",
       "drfstf": "니트라제팜",
       "drfstf_eng": "Nitrazepam",
@@ -1882,14 +1739,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 125,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 126,
       "drug_no": "P140",
       "drfstf": "니메타제팜",
       "drfstf_eng": "Nimetazepam",
@@ -1898,14 +1755,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 126,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 127,
       "drug_no": "P14",
       "drfstf": "엘 에스 디 / 엘 에스디-25",
       "drfstf_eng": "LSD / LSD-25",
@@ -1914,14 +1771,14 @@
       "side_effect": "",
       "medication": "  LSD는 통상 압지의 사각형 조각을 혀 위에 올려놓아 섭취하는데 침에 의해서 용해되어 점막을 통해 흡수된다. 이 방법이 가장 빠른 효과를 나타낸다. LSD는 음식과 섞어서 함께 복용하거나 정제나 각설탕에 덧붙여서 복용하며 위에서 흡수된다. 또한 LSD는 피부를 통해서 직접 흡수되기도 하나 LSD는 고열에 파괴되고 담배로 피워서 복용할 수는 없다.",
       "del_field": false,
-      "id": 127,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 128,
       "drug_no": "P139",
       "drfstf": "미다졸람",
       "drfstf_eng": "Midazolam",
@@ -1930,14 +1787,14 @@
       "side_effect": "주사부위의 통증 및 국소 반응 (diazepam보다는 약하다.), 딸꾹질, 시야몽롱, 복시(diplopia), 심장마비, 저혈압, 서맥, 오심, 구토, 졸음, 운동실조, 건망증, 현기증(dizziness), 역설적인 흥분, 분노, 진정, 두통, 호흡 억제, 무호흡, 후두 경련, 기관지 경련, 장기간 사용하는 경우 신체적, 정신적 의존성, 빈맥, 섬망(delirium), 피부염, 천명",
       "medication": "",
       "del_field": false,
-      "id": 128,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 129,
       "drug_no": "P138",
       "drfstf": "메페노렉스",
       "drfstf_eng": "Mefenorex",
@@ -1946,14 +1803,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 129,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 130,
       "drug_no": "P137",
       "drfstf": "메다제팜",
       "drfstf_eng": "Medazepam",
@@ -1962,14 +1819,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 130,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 131,
       "drug_no": "P136",
       "drfstf": "마진돌",
       "drfstf_eng": "Mazindol",
@@ -1978,14 +1835,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 131,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 132,
       "drug_no": "P135",
       "drfstf": "로르메타제팜",
       "drfstf_eng": "Lormetazepam",
@@ -1994,14 +1851,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 132,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 133,
       "drug_no": "P134",
       "drfstf": "로라제팜",
       "drfstf_eng": "Lorazepam",
@@ -2010,14 +1867,14 @@
       "side_effect": "정맥염, 주사부위의 통증, 협조 장애(impaired coordination), 구음장애(dysarthria), 성욕 감소, 시야몽롱, 복시(diplopia), 빈맥, 흉통, 구갈, 변비, 설사, 오심, 구토, 식욕 증가나 감소, 타액분비감소, 졸음, 혼동, 운동실조, 건망증, 언어장애(slurredspeech), 역설적인 흥분, 분노, 두통, 우울, 불안, 피로, 현기증(lightheadedness), 불면, 피부발진, 발한",
       "medication": "",
       "del_field": false,
-      "id": 133,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 134,
       "drug_no": "P133",
       "drfstf": "로프라졸람",
       "drfstf_eng": "Loprazolam",
@@ -2026,14 +1883,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 134,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 135,
       "drug_no": "P132",
       "drfstf": "레페타민",
       "drfstf_eng": "Lefetamine",
@@ -2042,14 +1899,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 135,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 136,
       "drug_no": "P131",
       "drfstf": "케타졸람",
       "drfstf_eng": "Ketazolam",
@@ -2058,14 +1915,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 136,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 137,
       "drug_no": "P130",
       "drfstf": "할록사졸람",
       "drfstf_eng": "Haloxazolam",
@@ -2074,14 +1931,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 137,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 138,
       "drug_no": "P13",
       "drfstf": "이보게인",
       "drfstf_eng": "Ibogaine",
@@ -2090,14 +1947,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 138,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 139,
       "drug_no": "P129",
       "drfstf": "할라제팜",
       "drfstf_eng": "Halazepam",
@@ -2106,14 +1963,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 139,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 140,
       "drug_no": "P128",
       "drfstf": "플루라제팜",
       "drfstf_eng": "Flurazepam",
@@ -2122,14 +1979,14 @@
       "side_effect": "구음장애(dysarthria), 성욕 감소, 시야몽롱, 빈맥, 흉통, 구갈, 변비, 타액분비 감소, 오심, 구토, 설사, 식욕 증가나 감소, 졸음, 피로, 협조 장애(impaired coordination), 현기증, 기억 장애, 불면, 불안, 우울, 두통, 피부발진, 발한",
       "medication": "",
       "del_field": false,
-      "id": 140,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 141,
       "drug_no": "P127",
       "drfstf": "플루디아제팜",
       "drfstf_eng": "Fludiazepam",
@@ -2138,14 +1995,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 141,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 142,
       "drug_no": "P126",
       "drfstf": "펜플루라민",
       "drfstf_eng": "Fenfluramine",
@@ -2154,14 +2011,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 142,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 143,
       "drug_no": "P125",
       "drfstf": "에티졸람",
       "drfstf_eng": "Etizolam",
@@ -2170,14 +2027,14 @@
       "side_effect": "졸음, 현기증, 신체 협조의 장애, 근육 이완, 배뇨장애, 심계항진, 기립성 저혈압, 구갈, 오심, 구토, 식욕부진, 변비, 설사, 보행실조, 두통, 두중감, 언어장애, 불면, 명정감, 권태, 탈력감, 피부발진, 담마진, 호흡곤란, 발한, 간의 GOT/GPT 상승, 진전, 시야몽롱, 조절 장해, 흥분, 초조, 코막힘, 부종",
       "medication": "",
       "del_field": false,
-      "id": 143,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 144,
       "drug_no": "P124",
       "drfstf": "에칠로프라제페이트",
       "drfstf_eng": "Ethyl Loflazepate",
@@ -2186,14 +2043,14 @@
       "side_effect": "시야몽롱, 졸음, 기상 곤란, 현기증, 균형감 상실, 두통, 언어장애, 마비감, 간의 GOT/GPT 상승, 근육 이완, 성욕 감퇴, 복통, 식욕부진, 오심, 변비, 구갈, 권태, 피로, 탈력감, 피부발진, 소양증, 백혈구감소증, 호산구증가증, urobilinogen 증가, 이명, 복시, 잔뇨감, 빈뇨, 구음장애, 미각이상, 위통, 심와부통, 가슴앓이, 설사, 구내염, 불면, 초조, 불쾌감, 피부발적, 코곯이, 냉감",
       "medication": "",
       "del_field": false,
-      "id": 144,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 145,
       "drug_no": "P123",
       "drfstf": "에치나메이트",
       "drfstf_eng": "Ethinamate",
@@ -2202,14 +2059,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 145,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 146,
       "drug_no": "P122",
       "drfstf": "에스크로비놀",
       "drfstf_eng": "Ethchlorvynol",
@@ -2218,14 +2075,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 146,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 147,
       "drug_no": "P121",
       "drfstf": "에스타졸람",
       "drfstf_eng": "Estazolam",
@@ -2234,14 +2091,14 @@
       "side_effect": "구음장애(dysarthria), 성욕 감소, 시야몽롱, 빈맥, 흉통, 구갈, 변비, 타액분비 감소, 오심, 구토, 설사, 식욕 증가나 감소, 졸음, 피로, 협조 장애(impaired coordination), 현기증, 기억 장애, 불면, 불안, 우울, 두통, 피부발진, 발한",
       "medication": "",
       "del_field": false,
-      "id": 147,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 148,
       "drug_no": "P120",
       "drfstf": "디아제팜",
       "drfstf_eng": "Diazepam",
@@ -2250,14 +2107,14 @@
       "side_effect": "정맥염, 주사부위의 통증, 협조 장애(impaired coordination), 구음장애(dysarthria), 성욕 감소, 시야몽롱, 복시(diplopia), 심장마비, 저혈압, 서맥, 심혈관 허탈, 빈맥, 흉통, 구갈, 타액분비 변화, 변비, 오심, 구토, 설사, 식욕 증가나 감소, 졸음, 운동실조, 건망증, 언어장애(slurred speech), 역설적인 흥분, 분노, 피로, 현기증(lightheadedness), 피부발진, 호흡수 감소, 무호흡, 후두경련, 발한",
       "medication": "",
       "del_field": false,
-      "id": 148,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 149,
       "drug_no": "P12",
       "drfstf": "엔-에칠-3-피페리딜 벤질레이트",
       "drfstf_eng": "N-ethyl-3-piperidylbenzilate",
@@ -2266,14 +2123,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 149,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 150,
       "drug_no": "P119",
       "drfstf": "델로라제팜",
       "drfstf_eng": "Delorazepam",
@@ -2282,14 +2139,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 150,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 151,
       "drug_no": "P118",
       "drfstf": "클록사졸람",
       "drfstf_eng": "Cloxazolam",
@@ -2298,14 +2155,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 151,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 152,
       "drug_no": "P117",
       "drfstf": "클로티아제팜",
       "drfstf_eng": "Clotiazepam",
@@ -2314,14 +2171,14 @@
       "side_effect": "수기, 휘청거림, 이명, 진전, 근육통, 관절통, 시야몽롱, 저혈압, 기립성저혈압, 빈맥, 오심, 구토, 식욕부진, 위통, 변비, 구갈, 현기증, 보행실조, 두통, 두중감, 피로, 권태, 탈력감, 발진, 소양증, 수족저림, 간기능검사치 상승, 언어장해, 부종, 금단증상",
       "medication": "",
       "del_field": false,
-      "id": 152,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 153,
       "drug_no": "P116",
       "drfstf": "클로라제페이트",
       "drfstf_eng": "Clorazepate",
@@ -2330,14 +2187,14 @@
       "side_effect": "구음장애(dysarthria), 성욕 감소, 시야몽롱, 빈맥, 흉통, 구갈, 변비, 설사, 타액분비 감소, 오심, 구토, 식욕 증가나 감소, 졸음, 피로, 협조 장애(impaired coordination), 현기증 (lightheadedness), 기억 장애, 불면, 불안, 두통, 우울, 피부발진, 발한",
       "medication": "",
       "del_field": false,
-      "id": 153,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 154,
       "drug_no": "P115",
       "drfstf": "클로나제팜",
       "drfstf_eng": "Clonazepam",
@@ -2346,14 +2203,14 @@
       "side_effect": "구음장애(dysarthria), 성욕 감소, 시야몽롱, 흉통, 오심, 변비, 구토, 설사, 구갈, 식욕 증가나 감소, 타액분비감소, 졸음, 피로, 협조 장애(impaired coordination), 현기증(lightheadedness), 기억 장애, 불면, 불안, 우울, 두통, 피부 발진(skin eruption, rash), 발한",
       "medication": "",
       "del_field": false,
-      "id": 154,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 155,
       "drug_no": "P114",
       "drfstf": "클로바잠",
       "drfstf_eng": "Clobazam",
@@ -2362,14 +2219,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 155,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 156,
       "drug_no": "P113",
       "drfstf": "클로르디아제폭사이드",
       "drfstf_eng": "Chlordiazepoxide",
@@ -2378,14 +2235,14 @@
       "side_effect": "구음장애(dysarthria), 성욕 감소, 시야몽롱, 흉통, 오심, 변비, 구토, 설사, 구갈, 식욕 증가나 감소, 타액분비감소, 졸음, 피로, 협조 장애(impaired coordination), 현기증(lightheadedness), 기억 장애, 불면, 불안, 우울, 두통, 피부 발진(skin eruption, rash), 발한",
       "medication": "",
       "del_field": false,
-      "id": 156,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 157,
       "drug_no": "P112",
       "drfstf": "클로랄하이드레이트",
       "drfstf_eng": "Chloral hydrate",
@@ -2394,14 +2251,14 @@
       "side_effect": "위 자극, 오심, 구토, 설사, 환각, 졸음, 숙취효과, 일에 서툴러짐, 발진, 두드러기, 고장(flatulence), 방향감 상실, 진정, 운동실조, 어지러움, 발열, 두통, 혼동, 역설적 흥분, 백혈구감소증, 호산구증가증, 육체적, 정신적 의존성 (고용량을 장기간 사용하는 경우)",
       "medication": "",
       "del_field": false,
-      "id": 157,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 158,
       "drug_no": "P111",
       "drfstf": "클로랄비테인",
       "drfstf_eng": "Chloral betaine",
@@ -2410,14 +2267,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 158,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 159,
       "drug_no": "P110",
       "drfstf": "케친",
       "drfstf_eng": "Cathine",
@@ -2426,14 +2283,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 159,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 160,
       "drug_no": "P11",
       "drfstf": "디엠에이취피",
       "drfstf_eng": "DMHP",
@@ -2442,14 +2299,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 160,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 161,
       "drug_no": "P109",
       "drfstf": "카마제팜",
       "drfstf_eng": "Camazepam",
@@ -2458,14 +2315,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 161,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 162,
       "drug_no": "P108",
       "drfstf": "부토르파놀",
       "drfstf_eng": "Butorphanol",
@@ -2474,14 +2331,14 @@
       "side_effect": "졸음, 배뇨장애, 안면홍조, 저혈압, 식욕부진, 오심, 구토, 현기, 어지러움, 두통, 발한 증가, 이명, 쇠약, 시야몽롱, 배뇨통, 서맥 또는 빈맥, 고혈압, 위경련, 변비, 구갈, 역설적 중추흥분, 혼동, 환각, 의식저하, 잘못된 행복감, 권태, 초조, 악몽, 중추신경계 억제, 피부발진, 호흡곤란, 단호흡, 호흡억제,  장기간 사용시 약물의존성",
       "medication": "",
       "del_field": false,
-      "id": 162,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 163,
       "drug_no": "P107",
       "drfstf": "브로티졸람",
       "drfstf_eng": "Brotizolam",
@@ -2490,14 +2347,14 @@
       "side_effect": "구음장애(dysarthria), 성욕 감소, 시야몽롱, 빈맥, 흉통, 구갈, 타액분비 감소, 변비, 오심, 구토, 설사, 식욕 증가나감소, 졸음, 피로, 협조 장애(impaired coordination), 현기증, (lightheadedness), 기억 장애, 불면, 불안, 우울, 두통, 피부발진, 발한, 이명, 근신경 및 골격계 경직(rigidity), 진전, 근육 경련, 실신, 저혈압, 체중 증가나 감소, 타액분비 증가, 혼동, 신경과민, 현기증(dizziness), 정좌불능(akathisia), 피부염, 비충혈, 과호흡, 근신경 및 골격계의 반사 감소, 월경불순, 혈액이상, 약물 의존성",
       "medication": "",
       "del_field": false,
-      "id": 163,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 164,
       "drug_no": "P106",
       "drfstf": "브로마제팜",
       "drfstf_eng": "Bromazepam",
@@ -2506,14 +2363,14 @@
       "side_effect": "진정, 졸음, 남성에서 성장호르몬 분비 증가, 안통, 시각장애, 저혈압, 어지러움, 운동실조, 학습능력 장애, EEG 변화, 실조성반응, 급성 금단 증후군",
       "medication": "",
       "del_field": false,
-      "id": 164,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 165,
       "drug_no": "P105",
       "drfstf": "암페프라몬",
       "drfstf_eng": "Amfepramone",
@@ -2522,14 +2379,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 165,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 166,
       "drug_no": "P104",
       "drfstf": "알프라졸람",
       "drfstf_eng": "Alprazolam",
@@ -2538,14 +2395,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 166,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 167,
       "drug_no": "P103",
       "drfstf": "플루니트라제팜",
       "drfstf_eng": "Flunitrazepam",
@@ -2554,14 +2411,14 @@
       "side_effect": "혈전정맥염, 딸꾹질, 근신경 및 골격계 피로감, 탈력감, 심계항진, 저혈압, 오심, 구강건조증, 설사, 졸음, 현훈, 운동실조, 두통, 피부 발진, 백혈구감소증, 빈혈, 혈소판감소증, 간기능검사 수치 상승, 귀 이명, 뇨실금, 배뇨곤란, 빈뇨, 구토, 위부 불쾌감, 식욕부진, 연변, 변비, 복통, 혀 거칠어짐, 가슴앓이, 타액분비 증가, 쓴 맛, 보행실조, 구음장애, 마비감, 동작완만, 기억력 저하, 명정감, 진전, 악몽, 기침, 호흡억제, 발한, 코골음, 안면홍조, 의존성, 금단증상",
       "medication": "  Rohypnol 5milligram 과 1milligram 은 직사각형 정제와 마찬가지로 1milliliter 주사용액에 1milligram으로 공급되고 있다. Hoffman-La Roche 은 1996년부터 1997년까지 1회에 2milligram 정제를 없애고 현재 둥근, 흰, 1milligram, 올리브 그린, 직사각형 정제숫자 542을 새긴 것을 공급하고 있다. 이 새로운 정제는 회사에 의하면 만약 정제를 음료에 넣으면 볼 수 있는 색깔이 있다고 한다",
       "del_field": false,
-      "id": 167,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 168,
       "drug_no": "P102",
       "drfstf": "에프타조신",
       "drfstf_eng": "Eptazocine",
@@ -2570,14 +2427,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 168,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 169,
       "drug_no": "P101",
       "drfstf": "부프레노르핀",
       "drfstf_eng": "Buprenorpine",
@@ -2586,14 +2443,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 169,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 170,
       "drug_no": "P100",
       "drfstf": "브롬바레릴우레아",
       "drfstf_eng": "Bromvalerylurea",
@@ -2602,14 +2459,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 170,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 171,
       "drug_no": "P10",
       "drfstf": "디메칠트립타민",
       "drfstf_eng": "Dimethyltryptamine",
@@ -2618,14 +2475,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 171,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 172,
       "drug_no": "P09",
       "drfstf": "디에칠트립타민",
       "drfstf_eng": "Diethyltryptamine",
@@ -2634,14 +2491,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 172,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 173,
       "drug_no": "P08",
       "drfstf": "부포테닌",
       "drfstf_eng": "Bufotenine",
@@ -2650,14 +2507,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 173,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 174,
       "drug_no": "P07",
       "drfstf": "3,4,5-트리메톡시암페타민",
       "drfstf_eng": "3,4,5-trimethoxyamphetamine",
@@ -2666,14 +2523,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 174,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 175,
       "drug_no": "P06",
       "drfstf": "3,4-메칠렌디옥시암페타민",
       "drfstf_eng": "3,4-methylenedioxyamphetamine",
@@ -2682,14 +2539,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 175,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 176,
       "drug_no": "P05",
       "drfstf": "4-메칠-2,5-메톡시암페타민",
       "drfstf_eng": "4-Methyl-2,5-dimethoxyamphetamine",
@@ -2698,14 +2555,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 176,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 177,
       "drug_no": "P04",
       "drfstf": "3-메톡시-4,5-메칠렌디옥시암페?",
       "drfstf_eng": "3-Methoxy-4,5-methylenedioxyamphetamine",
@@ -2714,14 +2571,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 177,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 178,
       "drug_no": "P03",
       "drfstf": "4-메톡시암페타민",
       "drfstf_eng": "4-Methoxyamphetamine",
@@ -2730,14 +2587,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 178,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 179,
       "drug_no": "P02",
       "drfstf": "2,5-디메톡시암페타민",
       "drfstf_eng": "2,5-Dimethoxyamphetamine",
@@ -2746,14 +2603,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 179,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 180,
       "drug_no": "P01",
       "drfstf": "4-브로모-2,5-디메톡시 암페타민",
       "drfstf_eng": "4-Bromo-2,5-dimethoxyamphetamine",
@@ -2762,14 +2619,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 180,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 181,
       "drug_no": "N99",
       "drfstf": "티리딘",
       "drfstf_eng": "Tilidine",
@@ -2778,14 +2635,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 181,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 182,
       "drug_no": "N98",
       "drfstf": "알펜타닐",
       "drfstf_eng": "Alfentanil",
@@ -2794,14 +2651,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 182,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 183,
       "drug_no": "N97",
       "drfstf": "디펜옥시",
       "drfstf_eng": "Difenoxin",
@@ -2810,14 +2667,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 183,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 184,
       "drug_no": "N96",
       "drfstf": "드로테바놀",
       "drfstf_eng": "Drotebanol",
@@ -2826,14 +2683,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 184,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 185,
       "drug_no": "N95",
       "drfstf": "프로피람",
       "drfstf_eng": "Propiram",
@@ -2842,14 +2699,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 185,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 186,
       "drug_no": "N94",
       "drfstf": "트리메페리딘",
       "drfstf_eng": "Trimeperidine",
@@ -2858,14 +2715,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 186,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 187,
       "drug_no": "N93",
       "drfstf": "라세모르판",
       "drfstf_eng": "Racemorphan",
@@ -2874,14 +2731,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 187,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 188,
       "drug_no": "N92",
       "drfstf": "라세모라마이드",
       "drfstf_eng": "Racemoramide",
@@ -2890,14 +2747,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 188,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 189,
       "drug_no": "N91",
       "drfstf": "라세메소르판",
       "drfstf_eng": "Racemethorphan",
@@ -2906,14 +2763,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 189,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 190,
       "drug_no": "N90",
       "drfstf": "프로페리딘",
       "drfstf_eng": "Properidine",
@@ -2922,14 +2779,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 190,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 191,
       "drug_no": "N89",
       "drfstf": "프로햅타진",
       "drfstf_eng": "Proheptazine",
@@ -2938,14 +2795,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 191,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 192,
       "drug_no": "N88",
       "drfstf": "피리트라마이드",
       "drfstf_eng": "Piritramide",
@@ -2954,14 +2811,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 192,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 193,
       "drug_no": "N87",
       "drfstf": "피미노딘",
       "drfstf_eng": "Piminodine",
@@ -2970,14 +2827,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 193,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 194,
       "drug_no": "N86",
       "drfstf": "페노페리딘",
       "drfstf_eng": "Phenoperidine",
@@ -2986,14 +2843,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 194,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 195,
       "drug_no": "N85",
       "drfstf": "페노모르판",
       "drfstf_eng": "Phenomorphan",
@@ -3002,14 +2859,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 195,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 196,
       "drug_no": "N84",
       "drfstf": "페나조신",
       "drfstf_eng": "Phenazocine",
@@ -3018,14 +2875,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 196,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 197,
       "drug_no": "N83",
       "drfstf": "페남프로마이드",
       "drfstf_eng": "Phenampromide",
@@ -3034,14 +2891,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 197,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 198,
       "drug_no": "N82",
       "drfstf": "페나독손",
       "drfstf_eng": "Phenadoxone",
@@ -3050,14 +2907,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 198,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 199,
       "drug_no": "N81",
       "drfstf": "페치딘 제조중간체 시",
       "drfstf_eng": "Pethidine Intermediate C",
@@ -3066,14 +2923,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 199,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 200,
       "drug_no": "N80",
       "drfstf": "페치딘 제조중간체 비",
       "drfstf_eng": "Pethidine Intermediate B",
@@ -3082,14 +2939,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 200,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 201,
       "drug_no": "N79",
       "drfstf": "페치딘 제조중간체 에이",
       "drfstf_eng": "Pethidine Intermediate A",
@@ -3098,14 +2955,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 201,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 202,
       "drug_no": "N78",
       "drfstf": "페치딘",
       "drfstf_eng": "Pethidine",
@@ -3114,14 +2971,14 @@
       "side_effect": "  근신경 및 골격계 쇠약, 저혈압, 오심, 구토, 변비, 피로, 졸음, 어지러움, histamine 유리, 뇨관경련, 배뇨장애, 식욕부진, 위경련, 구갈, 담도경련, 신경과민, 두통, 초조, 권태, 혼동,  호흡곤란, 단호흡, 마비성 장폐색, 의식저하, 환각, 역설적 중추신경계 흥분, 뇌압상승,  발진, 두드러기, 육체적, 정신적 의존성",
       "medication": "",
       "del_field": false,
-      "id": 202,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 203,
       "drug_no": "N77",
       "drfstf": "노르피파논",
       "drfstf_eng": "Norpipanone",
@@ -3130,14 +2987,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 203,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 204,
       "drug_no": "N76",
       "drfstf": "노르메사돈",
       "drfstf_eng": "Normethadone",
@@ -3146,14 +3003,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 204,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 205,
       "drug_no": "N75",
       "drfstf": "노르레보르파놀",
       "drfstf_eng": "Norlevorphanol",
@@ -3162,14 +3019,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 205,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 206,
       "drug_no": "N74",
       "drfstf": "노라시메사돌",
       "drfstf_eng": "Noracymethadol",
@@ -3178,14 +3035,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 206,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 207,
       "drug_no": "N73",
       "drfstf": "모르페리딘",
       "drfstf_eng": "Morpheridine",
@@ -3194,14 +3051,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 207,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 208,
       "drug_no": "N72",
       "drfstf": "모라마이드 제조중간체",
       "drfstf_eng": "Moramide Intermediate",
@@ -3210,14 +3067,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 208,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 209,
       "drug_no": "N71",
       "drfstf": "메사돈 제조 중간체",
       "drfstf_eng": "Methadone Intermediate",
@@ -3226,14 +3083,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 209,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 210,
       "drug_no": "N70",
       "drfstf": "메사돈",
       "drfstf_eng": "Methadone",
@@ -3242,14 +3099,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 210,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 211,
       "drug_no": "N69",
       "drfstf": "메타조신",
       "drfstf_eng": "Metazocine",
@@ -3258,14 +3115,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 211,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 212,
       "drug_no": "N68",
       "drfstf": "레보르파놀",
       "drfstf_eng": "Levorphanol",
@@ -3274,14 +3131,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 212,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 213,
       "drug_no": "N67",
       "drfstf": "레보페나실모르판",
       "drfstf_eng": "Levophenacylmorphan",
@@ -3290,14 +3147,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 213,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 214,
       "drug_no": "N66",
       "drfstf": "레보모라마이드",
       "drfstf_eng": "Levomoramide",
@@ -3306,14 +3163,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 214,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 215,
       "drug_no": "N65",
       "drfstf": "레보메소르판",
       "drfstf_eng": "Levomethorphan",
@@ -3322,14 +3179,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 215,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 216,
       "drug_no": "N64",
       "drfstf": "케토베미돈",
       "drfstf_eng": "Ketobemidone",
@@ -3338,14 +3195,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 216,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 217,
       "drug_no": "N63",
       "drfstf": "이소메사돈",
       "drfstf_eng": "Isomethadone",
@@ -3354,14 +3211,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 217,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 218,
       "drug_no": "N62",
       "drfstf": "히드록시페치딘",
       "drfstf_eng": "Hydroxypethidine",
@@ -3370,14 +3227,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 218,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 219,
       "drug_no": "N61",
       "drfstf": "푸레치딘",
       "drfstf_eng": "Furethidine",
@@ -3386,14 +3243,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 219,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 220,
       "drug_no": "N60",
       "drfstf": "펜타닐",
       "drfstf_eng": "Fentanyl",
@@ -3402,14 +3259,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 220,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 221,
       "drug_no": "N59",
       "drfstf": "에톡세리딘",
       "drfstf_eng": "Etoxeridine",
@@ -3418,14 +3275,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 221,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 222,
       "drug_no": "N58",
       "drfstf": "에토니타젠",
       "drfstf_eng": "Etonitazene",
@@ -3434,14 +3291,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 222,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 223,
       "drug_no": "N57",
       "drfstf": "에칠메칠치암부텐",
       "drfstf_eng": "Ethylmethylthiambutene",
@@ -3450,14 +3307,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 223,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 224,
       "drug_no": "N56",
       "drfstf": "디피파논",
       "drfstf_eng": "Dipipanone",
@@ -3466,14 +3323,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 224,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 225,
       "drug_no": "N55",
       "drfstf": "디펜옥시레이트",
       "drfstf_eng": "Diphenoxyrate",
@@ -3482,14 +3339,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 225,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 226,
       "drug_no": "N54",
       "drfstf": "디옥사페틸부티레이드",
       "drfstf_eng": "Dioxaphetyl butyrate",
@@ -3498,14 +3355,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 226,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 227,
       "drug_no": "N53",
       "drfstf": "디메칠치암부텐",
       "drfstf_eng": "Dimethylthiambutene",
@@ -3514,14 +3371,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 227,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 228,
       "drug_no": "N52",
       "drfstf": "디메페프타놀",
       "drfstf_eng": "Dimepheptanol",
@@ -3530,14 +3387,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 228,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 229,
       "drug_no": "N51",
       "drfstf": "디메녹사돌",
       "drfstf_eng": "Dimenoxadole",
@@ -3546,14 +3403,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 229,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 230,
       "drug_no": "N50",
       "drfstf": "디에칠치암부텐",
       "drfstf_eng": "Diethylthiambutene",
@@ -3562,14 +3419,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 230,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 231,
       "drug_no": "N49",
       "drfstf": "디암프로마이드",
       "drfstf_eng": "Diampromide",
@@ -3578,14 +3435,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 231,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 232,
       "drug_no": "N48",
       "drfstf": "덱스트로모라마이드",
       "drfstf_eng": "Dextromoramide",
@@ -3594,14 +3451,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 232,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 233,
       "drug_no": "N47",
       "drfstf": "클로니타진",
       "drfstf_eng": "Clonitazene",
@@ -3610,14 +3467,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 233,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 234,
       "drug_no": "N46",
       "drfstf": "베지트라마이드",
       "drfstf_eng": "Benzitramide",
@@ -3626,14 +3483,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 234,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 235,
       "drug_no": "N45",
       "drfstf": "베타프로딘",
       "drfstf_eng": "Betaprodine",
@@ -3642,14 +3499,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 235,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 236,
       "drug_no": "N44",
       "drfstf": "베타메사돌",
       "drfstf_eng": "Betamethadol",
@@ -3658,14 +3515,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 236,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 237,
       "drug_no": "N43",
       "drfstf": "베타메프로딘",
       "drfstf_eng": "Betameprodine",
@@ -3674,14 +3531,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 237,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 238,
       "drug_no": "N42",
       "drfstf": "베타세틸메사돌",
       "drfstf_eng": "Betacethylmethadol",
@@ -3690,14 +3547,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 238,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 239,
       "drug_no": "N41",
       "drfstf": "벤제치딘",
       "drfstf_eng": "Benzethidine",
@@ -3706,14 +3563,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 239,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 240,
       "drug_no": "N40",
       "drfstf": "아닐레리딘",
       "drfstf_eng": "Anileridine",
@@ -3722,14 +3579,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 240,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 241,
       "drug_no": "N39",
       "drfstf": "알파프로딘",
       "drfstf_eng": "Alphaprodine",
@@ -3738,14 +3595,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 241,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 242,
       "drug_no": "N38",
       "drfstf": "알파메사돌",
       "drfstf_eng": "Alphamethadol",
@@ -3754,14 +3611,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 242,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 243,
       "drug_no": "N37",
       "drfstf": "알파메프로딘",
       "drfstf_eng": "Alphameprodine",
@@ -3770,14 +3627,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 243,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 244,
       "drug_no": "N36",
       "drfstf": "알파세틸메사돌",
       "drfstf_eng": "Alphacetylmethadol",
@@ -3786,14 +3643,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 244,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 245,
       "drug_no": "N35",
       "drfstf": "알릴프로딘",
       "drfstf_eng": "Allylprodine",
@@ -3802,14 +3659,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 245,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 246,
       "drug_no": "N34",
       "drfstf": "아세틸메사돌",
       "drfstf_eng": "Acetylmethadol",
@@ -3818,14 +3675,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 246,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 247,
       "drug_no": "N33",
       "drfstf": "디히드로에트로핀",
       "drfstf_eng": "Dihydroetorphine",
@@ -3834,14 +3691,14 @@
       "side_effect": "탐닉성이 있고, 동통의 역치가 증가한다.\r\n",
       "medication": "",
       "del_field": false,
-      "id": 247,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 248,
       "drug_no": "N32",
       "drfstf": "폴코딘",
       "drfstf_eng": "Pholcodine",
@@ -3850,14 +3707,14 @@
       "side_effect": "오심, 기면이 발생한다.\r\n",
       "medication": "",
       "del_field": false,
-      "id": 248,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 249,
       "drug_no": "N31",
       "drfstf": "노르코데인",
       "drfstf_eng": "Norcodeine",
@@ -3866,14 +3723,14 @@
       "side_effect": "코데인과 동일\r\n",
       "medication": "",
       "del_field": false,
-      "id": 249,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 250,
       "drug_no": "N30",
       "drfstf": "니코코딘",
       "drfstf_eng": "Nicocodine",
@@ -3882,14 +3739,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 250,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 251,
       "drug_no": "N29",
       "drfstf": "에칠모르핀",
       "drfstf_eng": "Ethylmorphine",
@@ -3898,14 +3755,14 @@
       "side_effect": "소화 불량, 변비, 구토, 혼수, 피부 알레르기, 호흡 교란을 일으킨다.\r\n",
       "medication": "",
       "del_field": false,
-      "id": 251,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 252,
       "drug_no": "N28",
       "drfstf": "디히드로코데인",
       "drfstf_eng": "Dihydrocodeine",
@@ -3914,14 +3771,14 @@
       "side_effect": "  Codeine, pethidine, morphine보다 일반적으로 부작용이 적은데 이는 저용량을 투여하기 때문인 것이라고 여겨지고 있다. 부작용으로는 변비, 담도위축, 오심, 구토, 진정, 현기, 흥분, 쾌감, 환각, 악몽, 경미한 호흡억제, 금단증상 등이 있다.",
       "medication": "",
       "del_field": false,
-      "id": 252,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 253,
       "drug_no": "N27",
       "drfstf": "코데인",
       "drfstf_eng": "Codeine",
@@ -3930,14 +3787,14 @@
       "side_effect": "   변비, 졸음, 국소적으로 주사부위의 화상, 근신경 및 골격계의 쇠약, 시야몽롱, 배뇨 감소, 요도경련, 빈맥, 서맥, 저혈압, 구갈, 식욕부진, 오심, 구토, 현기증(dizziness, lightheadedness), 착각(행복감), 권태감, 두통, 초조, 역설적인 중추신경계 흥분, 혼동, 발진, 담마진, 호흡곤란, 근육경직, 진전(trembling), 마비성 장폐쇄증 (paralytic ileus), 담도경련, 위경련, 경련, 환각, 정신 억제, 악몽, 불면",
       "medication": "",
       "del_field": false,
-      "id": 253,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 254,
       "drug_no": "N26",
       "drfstf": "아세틸디히드로코데인",
       "drfstf_eng": "Acetyldihydrocodeine",
@@ -3946,14 +3803,14 @@
       "side_effect": "디히드로코데인과 동일\r\n",
       "medication": "",
       "del_field": false,
-      "id": 254,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 255,
       "drug_no": "N25",
       "drfstf": "테바인",
       "drfstf_eng": "Thebaine",
@@ -3962,14 +3819,14 @@
       "side_effect": "중추신경을 흥분하며, 경련을 유발한다.\r\n",
       "medication": "",
       "del_field": false,
-      "id": 255,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 256,
       "drug_no": "N24",
       "drfstf": "테바콘",
       "drfstf_eng": "Thebacon",
@@ -3978,14 +3835,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 256,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 257,
       "drug_no": "N23",
       "drfstf": "옥시모르폰",
       "drfstf_eng": "Oxymorphone",
@@ -3994,14 +3851,14 @@
       "side_effect": "졸음이 오며, 호흡장애를 일으킨다.\r\n",
       "medication": "",
       "del_field": false,
-      "id": 257,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 258,
       "drug_no": "N22",
       "drfstf": "옥시코돈",
       "drfstf_eng": "Oxycodone",
@@ -4010,14 +3867,14 @@
       "side_effect": "   저혈압, 피로, 졸리움, 현기증, 오심, 구토, 근신경 및 골격계 쇠약, 신경과민, 두통, 불안, 불쾌감, 혼동, 식욕부진, 위경련, xerostomia, 변비, 담관 경련, 요로 경련, 요량 감소, 호흡곤란, 숨가쁨",
       "medication": "   옥시코돈은 암환자나 만성통증환자의 통증 치료용으로 사용하는데, 체내에 서서히 녹아 12시간 진통효과가 지속되도록 정제형태로 제조됐으나, 미국에서 마약대용으로 이를 갈아서 흡입하거나 물에 타 주사제로 사용하면서 각종 부작용으로 사망자가 속출한 사례가 있다.",
       "del_field": false,
-      "id": 258,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 259,
       "drug_no": "N21",
       "drfstf": "노르모르핀",
       "drfstf_eng": "Normorphine",
@@ -4026,14 +3883,14 @@
       "side_effect": "대체로 모르핀과 유사\r\n",
       "medication": "",
       "del_field": false,
-      "id": 259,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 260,
       "drug_no": "N20",
       "drfstf": "니코모르핀",
       "drfstf_eng": "Nicomorphine",
@@ -4042,14 +3899,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 260,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 261,
       "drug_no": "N19",
       "drfstf": "니코디코딘",
       "drfstf_eng": "Nicodicodine",
@@ -4058,14 +3915,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 261,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 262,
       "drug_no": "N18",
       "drfstf": "미로핀",
       "drfstf_eng": "Myrophine",
@@ -4074,14 +3931,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 262,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 263,
       "drug_no": "N17",
       "drfstf": "모르핀-엔-옥사이드",
       "drfstf_eng": "Morphine-N-oxide",
@@ -4090,14 +3947,14 @@
       "side_effect": "모르핀과 동일\r\n",
       "medication": "",
       "del_field": false,
-      "id": 263,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 264,
       "drug_no": "N16",
       "drfstf": "모르핀",
       "drfstf_eng": "Morphine",
@@ -4106,14 +3963,14 @@
       "side_effect": "항이뇨호르몬(ADH) 분비, 홍조, 중추신경계 억제, 졸음, 진정, 뇌압상승, 육체적, 정신적 의존성, 발한, 주사부위의 통증, 근신경 및 골격계 쇠약, 심계항진, 저혈압, 서맥, 오심, 구토, 변비, 구갈,  현기(dizziness), Histamine 유리, 근신경 및 골격계 떨림, 시각장애, 배뇨곤란,  식욕부진, 위장관 자극, 구갈, 마비성 장폐색, 초조, 두통, 잘못된 행복감, 혼동, 호흡억제, 단호흡",
       "medication": "",
       "del_field": false,
-      "id": 264,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 265,
       "drug_no": "N15",
       "drfstf": "메토폰",
       "drfstf_eng": "Metopon",
@@ -4122,14 +3979,14 @@
       "side_effect": "대체로 모르핀과 유사\r\n",
       "medication": "",
       "del_field": false,
-      "id": 265,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 266,
       "drug_no": "N14",
       "drfstf": "메칠디히드로모르핀",
       "drfstf_eng": "Methyldihydromorphine",
@@ -4138,14 +3995,14 @@
       "side_effect": "대체로 모르핀과 유사\r\n",
       "medication": "",
       "del_field": false,
-      "id": 266,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 267,
       "drug_no": "N13",
       "drfstf": "메칠데소르핀",
       "drfstf_eng": "Methyldesorphine",
@@ -4154,14 +4011,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 267,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 268,
       "drug_no": "N12",
       "drfstf": "히드로모르폰",
       "drfstf_eng": "Hydromorphone",
@@ -4170,14 +4027,14 @@
       "side_effect": "진정, 졸음, 정신혼탁, 기면상태, 정신적·육체적 수행 장애, 갈망, 두려움, 불쾌감, 정신적 의존성, 감정변화, 기립성저혈압, 뇨폐, 오심, 구토 등",
       "medication": "",
       "del_field": false,
-      "id": 268,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 269,
       "drug_no": "N11",
       "drfstf": "히드로모르피놀",
       "drfstf_eng": "Hydromorphinol",
@@ -4186,14 +4043,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 269,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 270,
       "drug_no": "N107",
       "drfstf": "레미펜타닐",
       "drfstf_eng": "Remifentanil",
@@ -4202,14 +4059,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 270,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 271,
       "drug_no": "N106",
       "drfstf": "엠피피피",
       "drfstf_eng": "MPPP",
@@ -4218,14 +4075,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 271,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 272,
       "drug_no": "N105",
       "drfstf": "피이피에이피",
       "drfstf_eng": "PEPAP",
@@ -4234,14 +4091,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 272,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 273,
       "drug_no": "N104",
       "drfstf": "서펜타닐",
       "drfstf_eng": "Sufentanil",
@@ -4250,14 +4107,14 @@
       "side_effect": "서맥, 저혈압, 오심, 구토, 졸음, 호흡억제, 시야몽롱, 심부정맥, 기립성 저혈압, 담도경련, 혼동, 중추신경계 억제, 순환계 허탈, 경련, 감각이상, 역설적 중추신경계 흥분 또는 섬망, 의식저하, 어지러움, 발진, 두드러기, 가려움, 기관지 수축, 후두경련, 차고 창백한 피부, 담도 및 요도경련, 장기간 사용시 육체적, 정신적 의존성",
       "medication": "",
       "del_field": false,
-      "id": 273,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 274,
       "drug_no": "N103",
       "drfstf": "3-메칠펜타닐",
       "drfstf_eng": "3-Methylfentanyl",
@@ -4266,14 +4123,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 274,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 275,
       "drug_no": "N102",
       "drfstf": "알파-메칠펜타닐",
       "drfstf_eng": "Alpha-methylfentanyl",
@@ -4282,14 +4139,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 275,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 276,
       "drug_no": "N101",
       "drfstf": "아세틸-알파-메칠펜타닐",
       "drfstf_eng": "Acetyl-alpha-methylfentanyl",
@@ -4298,14 +4155,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 276,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 277,
       "drug_no": "N100",
       "drfstf": "프로폭시펜",
       "drfstf_eng": "Propoxyphene",
@@ -4314,14 +4171,14 @@
       "side_effect": "부작용으로는 현기증, 진정작용, 매스꺼움, 구토, 복부의 통증, 두통, 환각, 다소 시각적인 장애가 있다. 알레르기 반응을 보이는 사람은  발진, 종기, 호흡곤란을 일으킨다.",
       "medication": "",
       "del_field": false,
-      "id": 277,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 278,
       "drug_no": "N10",
       "drfstf": "히드로코돈",
       "drfstf_eng": "Hydrocodone",
@@ -4330,14 +4187,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 278,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 279,
       "drug_no": "N09",
       "drfstf": "헤로인",
       "drfstf_eng": "Heroin",
@@ -4346,14 +4203,14 @@
       "side_effect": "헤로인은 아편이나 모르핀과 마찬가지로 수면이나 정신적 공허감을 일으킨다. 약효가 강해서 소량으로도 충분한 반응을 얻을 수 있으나 지속시간이 짧다. 중독자는 4~6 시간 후면 재투약을 갈망하게 된다.\r\n",
       "medication": "헤로인과 모르핀은 주로 주사로 복용 되나 아편과 같이 흡연하기도하고 코점막으로 흡입하기도 하는반면, 아편은 흡연하거나 코점막을 통해 snort한다. Codeine, Oxycodone과 hydrocodone은 경구로 투여되나 다른 opioid는 주사로 투여된다.",
       "del_field": false,
-      "id": 279,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 280,
       "drug_no": "N08",
       "drfstf": "에토르핀",
       "drfstf_eng": "Etorphine",
@@ -4362,14 +4219,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 280,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 281,
       "drug_no": "N07",
       "drfstf": "에크고닌",
       "drfstf_eng": "Ecgonine",
@@ -4378,14 +4235,14 @@
       "side_effect": "코카인과 동일\r\n",
       "medication": "",
       "del_field": false,
-      "id": 281,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 282,
       "drug_no": "N06",
       "drfstf": "디히드로모르핀",
       "drfstf_eng": "Dihydromorphine",
@@ -4394,14 +4251,14 @@
       "side_effect": "대체로 모르핀과 유사\r\n",
       "medication": "",
       "del_field": false,
-      "id": 282,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 283,
       "drug_no": "N05",
       "drfstf": "데소모르핀",
       "drfstf_eng": "Desomorphine",
@@ -4410,14 +4267,14 @@
       "side_effect": "모르핀과 동일\r\n",
       "medication": "",
       "del_field": false,
-      "id": 283,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 284,
       "drug_no": "N04",
       "drfstf": "코독심",
       "drfstf_eng": "Codoxime",
@@ -4426,14 +4283,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 284,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 285,
       "drug_no": "N03",
       "drfstf": "코카인",
       "drfstf_eng": "Cocaine",
@@ -4442,14 +4299,14 @@
       "side_effect": "주요 부작용은 불안, 우울증, 심장질환이다. 급성 코카인 섭취에 의한 부작용은 고혈압, 빈맥, 땀분비, 편집증을 포함하고, 불안증을 촉진시킬 수 있으며, 다른 흥분 약처럼 코카인의 중추신경 자극으로 정신적 우울증을 유발한다. 코카인에 금단현상을 나타내는 탐닉환자는 신체적 및 정신적 우울증뿐만 아니라 감정의 동요를 보인다. 치명적인 심부정맥과 경련을 유발할 수 있다. 코카인 사용자에서 심근 경색증 발생빈도는 용량, 사용기간, 투약경로와는 관계가 없다. 코카인을 복용한 후 생명에 치명적인 심장작용을 갖는 환자를 확인하는 지표는 없다.\r\n",
       "medication": "   코카인은 주로 코점막을 통해 사용되는데 효과는 투여 15-60분 후에 나타나게 된다. 또한 코카인은 헤로인과 섞어 정맥주사를 하는 경우를 “speedball”이라고 부르는데 주사가 sniffing보다 효과가 빨라 더 인기가 있다. 크랙이나 유리염기의 코카인은 파이프 등으로 흡연하거나 가열한 알루미늄 호일 위에 이들을 놓고 흡입하는 것이 일반적이다. 흡입에 의해 효과가 빨리 나타나기 때문에 탐닉성도 급속히 나타나게 된다.",
       "del_field": false,
-      "id": 285,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 286,
       "drug_no": "N02",
       "drfstf": "벤질모르핀",
       "drfstf_eng": "Benzylmorphine",
@@ -4458,14 +4315,14 @@
       "side_effect": "모르핀과 동일\r\n",
       "medication": "",
       "del_field": false,
-      "id": 286,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 287,
       "drug_no": "N01",
       "drfstf": "아세토르핀",
       "drfstf_eng": "Acetorphine",
@@ -4474,14 +4331,14 @@
       "side_effect": "에토르핀과 동일\r\n",
       "medication": "",
       "del_field": false,
-      "id": 287,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 288,
       "drug_no": "E04",
       "drfstf": "부탄가스",
       "drfstf_eng": "Butane",
@@ -4490,14 +4347,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 288,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 289,
       "drug_no": "E03",
       "drfstf": "메틸알콜",
       "drfstf_eng": " Methanol",
@@ -4506,14 +4363,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 289,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 290,
       "drug_no": "E02",
       "drfstf": "초산에틸",
       "drfstf_eng": "Ethyl Acetate",
@@ -4522,14 +4379,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 290,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 292,
       "drug_no": "D2",
       "drfstf": "티에이치씨",
       "drfstf_eng": "THC",
@@ -4538,14 +4395,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 292,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 293,
       "drug_no": "D01",
       "drfstf": "대마",
       "drfstf_eng": "Cannabis",
@@ -4554,14 +4411,14 @@
       "side_effect": "",
       "medication": "   해쉬쉬와 마리화나는 주로 흡연에 의해 남용되는데,  해쉬쉬의 사용방법은 작은 덩어리나 조작으로 만들어 특별히 제작된 파이프로 흡연하는 것으로 알려져 있으며, 달콤하고 건초 같은 냄새 때문에 쉽게 흡연여부를 알 수 있다. 해쉬쉬오일의 사용 방법은 담배에 오일을 한 방울 떨어트려 흡연하는데 그 효과는 대마초를 한대 피운 것과 같다고 한다. 경구로 투여하면(해쉬쉬케이크) 흡연한 것 보다 효과가 3배정도 낮다.",
       "del_field": false,
-      "id": 293,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 294,
       "drug_no": "C23",
       "drfstf": "톨루엔",
       "drfstf_eng": "Toluene.",
@@ -4570,14 +4427,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 294,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 295,
       "drug_no": "C22",
       "drfstf": "황산(염류제외)",
       "drfstf_eng": "Sulfuric Acid.",
@@ -4586,14 +4443,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 295,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 296,
       "drug_no": "C21",
       "drfstf": "과망간산칼륨",
       "drfstf_eng": "Potassium Permanganate.",
@@ -4602,14 +4459,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 296,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 297,
       "drug_no": "C20",
       "drfstf": "메칠에칠케톤",
       "drfstf_eng": "Methyl Ethyl Ketone.",
@@ -4618,14 +4475,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 297,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 298,
       "drug_no": "C19",
       "drfstf": "염산(염류제외)",
       "drfstf_eng": "Hydrochloric Acid.",
@@ -4634,14 +4491,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 298,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 299,
       "drug_no": "C18",
       "drfstf": "페페리딘",
       "drfstf_eng": "Piperidine.",
@@ -4650,14 +4507,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 299,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 300,
       "drug_no": "C17",
       "drfstf": "초산페닐",
       "drfstf_eng": "Phenylacetic Acid.",
@@ -4666,14 +4523,30 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 300,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 301,
+      "drug_no": "P62",
+      "drfstf": "메타아비탈",
+      "drfstf_eng": "Metharbital",
+      "type_code": "향정신성의약품",
+      "pharm": "",
+      "side_effect": "",
+      "medication": "",
+      "del_field": false,
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
+    }
+  },
+  {
+    "model": "data_api.Drug",
+    "fields": {
+      "id": 302,
       "drug_no": "P61",
       "drfstf": "헥소바르비탈",
       "drfstf_eng": "Hexobarbital",
@@ -4682,14 +4555,46 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 302,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 303,
+      "drug_no": "P60",
+      "drfstf": "헥세탈",
+      "drfstf_eng": "Hexethal",
+      "type_code": "향정신성의약품",
+      "pharm": "",
+      "side_effect": "",
+      "medication": "",
+      "del_field": false,
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
+    }
+  },
+  {
+    "model": "data_api.Drug",
+    "fields": {
+      "id": 304,
+      "drug_no": "P59",
+      "drfstf": "헵토바르비탈",
+      "drfstf_eng": "Heptobarbital",
+      "type_code": "향정신성의약품",
+      "pharm": "",
+      "side_effect": "",
+      "medication": "",
+      "del_field": false,
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
+    }
+  },
+  {
+    "model": "data_api.Drug",
+    "fields": {
+      "id": 305,
       "drug_no": "P58",
       "drfstf": "헵타바르비탈",
       "drfstf_eng": "Heptabarbital",
@@ -4698,14 +4603,46 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 305,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 306,
+      "drug_no": "P57",
+      "drfstf": "에트아로바르비탈",
+      "drfstf_eng": "Ethallobarbital",
+      "type_code": "향정신성의약품",
+      "pharm": "",
+      "side_effect": "",
+      "medication": "",
+      "del_field": false,
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
+    }
+  },
+  {
+    "model": "data_api.Drug",
+    "fields": {
+      "id": 307,
+      "drug_no": "P56",
+      "drfstf": "엔아릴푸로피말",
+      "drfstf_eng": "Enallylpropymal",
+      "type_code": "향정신성의약품",
+      "pharm": "",
+      "side_effect": "",
+      "medication": "",
+      "del_field": false,
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
+    }
+  },
+  {
+    "model": "data_api.Drug",
+    "fields": {
+      "id": 308,
       "drug_no": "P55",
       "drfstf": "싸이크로펜토바르비탈",
       "drfstf_eng": "Cyclopentobarbital",
@@ -4714,14 +4651,46 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 308,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 309,
+      "drug_no": "P54",
+      "drfstf": "싸이크로바르비탈",
+      "drfstf_eng": "Cyclobarbital",
+      "type_code": "향정신성의약품",
+      "pharm": "",
+      "side_effect": "",
+      "medication": "",
+      "del_field": false,
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
+    }
+  },
+  {
+    "model": "data_api.Drug",
+    "fields": {
+      "id": 310,
+      "drug_no": "P53",
+      "drfstf": "부토바르비탈",
+      "drfstf_eng": "Butobarbital",
+      "type_code": "향정신성의약품",
+      "pharm": "",
+      "side_effect": "",
+      "medication": "",
+      "del_field": false,
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
+    }
+  },
+  {
+    "model": "data_api.Drug",
+    "fields": {
+      "id": 311,
       "drug_no": "P52",
       "drfstf": "부타리로날",
       "drfstf_eng": "Butallylonal",
@@ -4730,14 +4699,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 311,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 312,
       "drug_no": "P51",
       "drfstf": "부탈비탈",
       "drfstf_eng": "Butalbital",
@@ -4746,14 +4715,14 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 312,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 313,
       "drug_no": "P50",
       "drfstf": "섹부타바르비탈",
       "drfstf_eng": "Secbutabarbital",
@@ -4762,14 +4731,46 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 313,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   },
   {
     "model": "data_api.Drug",
     "fields": {
+      "id": 314,
+      "drug_no": "P49",
+      "drfstf": "부라로바르비탈",
+      "drfstf_eng": "Brallobarbital",
+      "type_code": "향정신성의약품",
+      "pharm": "",
+      "side_effect": "",
+      "medication": "",
+      "del_field": false,
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
+    }
+  },
+  {
+    "model": "data_api.Drug",
+    "fields": {
+      "id": 315,
+      "drug_no": "P48",
+      "drfstf": "바르비탈",
+      "drfstf_eng": "Barbital",
+      "type_code": "향정신성의약품",
+      "pharm": "",
+      "side_effect": "",
+      "medication": "",
+      "del_field": false,
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
+    }
+  },
+  {
+    "model": "data_api.Drug",
+    "fields": {
+      "id": 316,
       "drug_no": "P47",
       "drfstf": "아프로바르비탈",
       "drfstf_eng": "Aprobarbital",
@@ -4778,9 +4779,8 @@
       "side_effect": "",
       "medication": "",
       "del_field": false,
-      "id": 316,
-      "created_at": "2023-05-02 18:03:12",
-      "updated_at": "2023-05-02 18:03:12"
+      "created_at": "2023-05-06 02:08:39",
+      "updated_at": "2023-05-06 02:08:39"
     }
   }
 ]
