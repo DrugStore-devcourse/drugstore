@@ -2,6 +2,8 @@ import logging
 from konlpy.tag import Kkma
 from apps.data_collection.crawler.article_crawler import ArticleCrawler
 from apps.data_collection.crawler.chosun_article_crawler import ChosunArticleCrawler
+from apps.data_collection.crawler.kbs_article_crawler import KbsArticleCrawler
+from apps.data_collection.crawler.yeonhap_article_crawler import YeonhapArticleCrawler
 from django.core.exceptions import ValidationError
 from django.db import transaction
 from .constants import PRESSES
@@ -12,19 +14,29 @@ logger = logging.getLogger('crawlerlogger')
 def save_articles():
     '''
     This function saves article data crawled using the 'ArticleCrawler' class to the database.
-
-    <<TODO>> 예외처리, 로깅 등 
-    <<TODO>> 언론사 2개 추가 구현  
+    - Get aritcles of 'chosun'/'yeonhap/'kbs' press and Save them
     '''
     crawler = ArticleCrawler() 
     article_links = crawler.get_article_links(PRESSES)
+    articles = []
+    if 'chosun' in article_links.keys():
+        chosun_crawler = ChosunArticleCrawler()
+        articles.extend(chosun_crawler.get_articles(article_links['chosun']))
+    if 'yeonhap' in article_links.keys():
+        yeonhap_crawler = YeonhapArticleCrawler()
+        articles.extend(yeonhap_crawler.get_articles(article_links['yeonhap']))
+    if 'kbs' in article_links.keys():
+        kbs_crawler = KbsArticleCrawler()
+        articles.extend(kbs_crawler.get_articles(article_links['kbs']))
     
-    # Get aritcles of 'chosun' press and Save them
-    chosun_crawler = ChosunArticleCrawler()
-    chosun_articles = chosun_crawler.get_articles(article_links['chosun'])
-    for article in chosun_articles:
-        new_article = Article(**article)
-        new_article.save()
+    with transaction.atomic():
+        for article in articles:
+            new_article = Article(**article)
+            try:
+                new_article.full_clean()
+                new_article.save()
+            except ValidationError as e:
+                logger.warning(f'Validation error occurred while saving the article: {e}')
 
 def parse_article_to_word():
     '''
