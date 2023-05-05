@@ -1,36 +1,36 @@
 {% load static %}
 <!DOCTYPE html>
 <head>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
-  <link rel="stylesheet" href="{% static 'css/main.css' %}">
-  <title>Drugstore</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+    <title>Drugstore</title>
 </head>
 <body>
 
-  <div class="top"></div>
-    {% comment %} {% if error_message %}
+<div class="top"></div>
+{% comment %} {% if error_message %}
     <p><strong>{{ error_message }}</strong></p>
     {% else %} {% endcomment %}
-    <div class="result">
-      <div class="list-group">
+<div class="result">
+    <div class="list-group">
         {% for drug in hot_drugs %}
-        <div class="list-group-item list-group-item-action flex-column align-items-start">
-          <div class="d-flex w-100 justify-content-between">
-          <ul>{{drug.drfstf}} ({{drug.drfstf_eng}})          
-            <br></br>  
-              <li>분류/구분 : {{drug.type_code}}</li>
-                <li>이화학정보 : {{drug.pharm}}</li>
-                <li>남용정보 : {{drug.side_effect}}</li>
-                <li>약물정보 : {{drug.medication}}</li>             
-          </ul>
-        </div>        
+            <div class="list-group-item list-group-item-action flex-column align-items-start">
+            <div class="d-flex w-100 justify-content-between">
+                <ul>{{ drug.drfstf }} ({{ drug.drfstf_eng }})
+                    <br></br>
+                    <li>분류/구분 : {{ drug.type_code }}</li>
+                    <li>이화학정보 : {{ drug.pharm }}</li>
+                    <li>남용정보 : {{ drug.side_effect }}</li>
+                    <li>약물정보 : {{ drug.medication }}</li>
+                </ul>
+            </div>
         {% endfor %}
-      </div>
-    </div> 
-      <div class="pie-chart">
-        
-        {% include 'visualization/wordcloud/id.html' with chart=chart %}
+        </div>
+    </div>
+    <div class="pie-chart">
 
-      </div>   
-  
+        {% include 'visualization/wordcloud.html' with img_base64=img_base64 %}
+
+    </div>
+
 </body>

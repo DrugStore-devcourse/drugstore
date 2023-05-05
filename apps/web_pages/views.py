@@ -53,6 +53,17 @@ def drug_detail(request, drug_no):
         "hot_drugs": hot_drugs,
     }
 
+    # FIXME 시각화 url을 직접호출
+    charts = []
+    try:
+        chart_url = f"http://{request.get_host()}/chart/wordcloud/{hot_drugs[0]['id']}"
+
+        text = requests.get(chart_url).text
+        context['img_base64'] = text.split("\"")[3].split(",")[1]
+    except (requests.exceptions.RequestException):
+        logging.warning(CHART_LOAD_FAILED)
+        context['error_message'] = context.get('error_message', CHART_CREATION_FAILED)
+
     return render(request, "web_pages/detail.html", context=context)
 
 
