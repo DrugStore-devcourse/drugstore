@@ -6,7 +6,6 @@ from django.http import Http404
 import requests
 import logging
 from templates import *
-from apps.web_pages.constants import *
 
 
 def drug_list(request):

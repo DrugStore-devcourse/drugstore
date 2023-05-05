@@ -4,5 +4,5 @@ from . import views
 
 app_name = 'web'
 urlpatterns = [
-    path('', views.hello_view),
+
 ]
