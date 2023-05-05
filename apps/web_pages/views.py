@@ -5,12 +5,14 @@ from ..data_collection.models import *
 from .constants import *
 from django.http import Http404
 from django.urls import reverse
+from apps.visualization.views import _render_pie_chart
 import requests
 import logging
 
 # Create your views here.
 def drug_list(request):
     mosts = []
+    context = {}
     try:
         if not Drug.objects.exists() or not Word.objects.exists():
             logging.warning(ROWS_NOT_EXIST)
@@ -25,9 +27,10 @@ def drug_list(request):
     except(Drug.DoesNotExist, Word.DoesNotExist):
         raise Http404("데이터가 없습니다.")
 
+    charts = []
     if len(mosts) == 0:
         logging.warning(DRUGS_NOT_IN_WORDS)
-        context = {'error_message': LIST_CREATION_FAILED}
+        context['error_message'] = context.get('error_message', LIST_CREATION_FAILED)
     else:
         hot_drugs = []
         for most in mosts:
@@ -39,14 +42,18 @@ def drug_list(request):
                                     'type_code':drug['type_code'],
                                     'frequency':most['frequency'], 
                                     'drug_no':drug['drug_no']})
+                    charts.append([drug['drfstf'], most['frequency']])
 
         context = {'hot_drugs' : hot_drugs}
     try:
         chart_url = "http://" + request.get_host() + reverse('chart:top10_pie_chart')
-        context['chart'] = requests.get(chart_url).text
+        if request.get_host() != 'testserver': # test시에는 client의 host가 testserver가 되어 chart/top10의 url 획득 불가능
+            context['chart'] = requests.get(chart_url).text
+        elif len(charts):
+            context['chart'] = _render_pie_chart(charts, 'test')
     except (requests.exceptions.RequestException):
         logging.warning(CHART_LOAD_FAILED)
-        context = {'error_message': CHART_CREATION_FAILED}
+        context['error_message'] = context.get('error_message', CHART_CREATION_FAILED)
 
     return render(request, 'web_pages/index.html', context=context)
 

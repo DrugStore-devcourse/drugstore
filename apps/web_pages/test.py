@@ -1,8 +1,9 @@
 from django.test import TestCase, Client
 from django.urls import reverse
-from ..data_api.models import *
-from ..data_collection.models import *
 from django.core.management import call_command
+from apps.data_api.models import *
+from apps.data_collection.models import *
+from apps.web_pages.constants import *
 
 # Create your tests here.
 
@@ -14,8 +15,8 @@ from django.core.management import call_command
 
 class DrugListViewTest(TestCase):
     def setUp(self):
-        self.url = reverse('web:list')
         self.client = Client()
+        self.url = reverse('web:list')
 
         call_command('loaddata', 'test_drug.json')
         call_command('loaddata', 'test_article.json')
@@ -25,22 +26,31 @@ class DrugListViewTest(TestCase):
         Drug.objects.all().delete()
 
         response = self.client.get(self.url)
-        self.assertEqual(response.status_code, 200)
-        self.assertContains(response, LIST_CREATION_REJECT)
+        content = str(response.content.decode('utf-8'))
+        status = response.status_code
+        self.assertEqual(status, 200)
+        self.assertTrue(LIST_CREATION_REJECT in content)
 
     def test_drugs_not_in_words(self):
-        article_id = Article.objects.first().values()['article_id']
-        Words.objects.all().delete()
-        word = Words(article_id=article_id, text='', frequency=1)
+        article_id = Article.objects.first()
+        Word.objects.all().delete()
+        word = Word(article_id=article_id, text='', frequency=1)
         word.save()
         
         response = self.client.get(self.url)
-        self.assertEqual(response.status_code, 200)
-        self.assertContains(response, LIST_CREATION_FAILED)
+        content = response.content.decode('utf-8')
+        status = response.status_code
+        self.assertEqual(status, 200)
+        self.assertTrue(LIST_CREATION_FAILED in content)
 
     def test_work_successfully(self):
+        article_id = Article.objects.first()
+        word = Word(article_id=article_id, text='펜타닐', frequency=1)
+        word.save()
+
         response = self.client.get(self.url)
-        
-        self.assertEqual(response.status_code, 200)
-        self.assertContains(response, "result")
+        content = response.content.decode('utf-8')
+        status = response.status_code
+        self.assertEqual(status, 200)
+        self.assertTrue("list-group" in content)
         
