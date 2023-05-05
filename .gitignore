@@ -8,6 +8,8 @@ db.sqlite3
 # ide
 .idea
 
+# logs
+logs/
 
 # User-specific stuff
 .idea/**/workspace.xml

@@ -1,0 +1,57 @@
+[
+  {
+    "model": "data_collection.Word",
+    "fields": {
+      "word_id": "9991",
+      "article_id": "9999",
+      "text": "펜타닐",
+      "frequency": "5",
+      "created_at": "2023-05-02 18:03:12",
+      "updated_at": "2023-05-02 18:03:12"
+    }
+  },
+  {
+    "model": "data_collection.Word",
+    "fields": {
+      "word_id": "9992",
+      "article_id": "9999",
+      "text": "조직원",
+      "frequency": "4",
+      "created_at": "2023-05-02 18:03:12",
+      "updated_at": "2023-05-02 18:03:12"
+    }
+  },
+  {
+    "model": "data_collection.Word",
+    "fields": {
+      "word_id": "9993",
+      "article_id": "9999",
+      "text": "비닐랩",
+      "frequency": "2",
+      "created_at": "2023-05-02 18:03:12",
+      "updated_at": "2023-05-02 18:03:12"
+    }
+  },
+  {
+    "model": "data_collection.Word",
+    "fields": {
+      "word_id": "9994",
+      "article_id": "9998",
+      "text": "아편",
+      "frequency": "2",
+      "created_at": "2023-05-02 18:03:12",
+      "updated_at": "2023-05-02 18:03:12"
+    }
+  },
+  {
+    "model": "data_collection.Word",
+    "fields": {
+      "word_id": "9995",
+      "article_id": "9998",
+      "text": "모르핀",
+      "frequency": "3",
+      "created_at": "2023-05-02 18:03:12",
+      "updated_at": "2023-05-02 18:03:12"
+    }
+  }
+]
