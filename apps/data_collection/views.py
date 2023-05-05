@@ -31,12 +31,13 @@ def save_articles():
     
     with transaction.atomic():
         for article in articles:
+            article_url = article['url']
             new_article = Article(**article)
             try:
                 new_article.full_clean()
                 new_article.save()
             except ValidationError as e:
-                logger.warning(f'Validation error occurred while saving the article: {e}')
+                logger.warning(f'Validation error occurred while saving the article: {article_url} {e}')
 
 def parse_article_to_word():
     '''
