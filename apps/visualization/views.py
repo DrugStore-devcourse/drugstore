@@ -104,9 +104,9 @@ def _DrugCount(drug, article_id):  # 워드클라우드 생성을 위한 text �
         words = Word.objects.filter(article_id_id__exact=id)
         for word in words:
             if word.text not in count:
-                count[word.text] = word.frequecny
+                count[word.text] = word.frequency
             else:
-                count[word.text] += word.frequecny
+                count[word.text] += word.frequency
     return count
 
 

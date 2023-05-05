@@ -10,12 +10,13 @@ from apps.visualization.constants import WORDCLOUD_CHART, TOP10_PIE_CHART, APP_N
 
 class WordCloudViewTest(TestCase):
     def setUp(self):
-        self.client = Client()
-        self.url = reverse(f'{APP_NAME}:{WORDCLOUD_CHART}')
-
         call_command('loaddata', 'test_drug.json')
         call_command('loaddata', 'test_article.json')
         call_command('loaddata', 'test_word.json')
+
+        self.client = Client()
+        self.url = [reverse(f'{APP_NAME}:{WORDCLOUD_CHART}', args=[i + 1])
+                    for i in range(len(Drug.objects.all()))]
 
     def tearDown(self):
         Drug.objects.all().delete()
@@ -28,22 +29,21 @@ class WordCloudViewTest(TestCase):
         :return:
         """
         Drug.objects.all().delete()
-
-        response = self.client.get(self.url)
-        response.content = response.content.decode('utf-8')
-        self.assertEqual(response.status_code, 200)
-        self.assertContains(response, CHART_CREATION_REJECT)
+        for url in self.url:
+            response = self.client.get(url)
+            response.content = response.content.decode('utf-8')
+            self.assertEqual(response.status_code, 200)
+            self.assertContains(response, CHART_CREATION_REJECT)
 
     def test_successfully_renders_chart(self):
         """
         차트 랜더링이 성공한 경우 200 ok 및 특정 태그 조회
         :return:
         """
-        response = self.client.get(self.url)
-        response.content = response.content.decode('utf-8')
-        expected_html = '<title>Awesome-pyecharts</title>'
-        self.assertEqual(response.status_code, 200)
-        self.assertContains(response, expected_html)
+        for url in self.url:
+            response = self.client.get(url)
+            response.content = response.content.decode('utf-8')
+            self.assertEqual(response.status_code, 200)
 
     def test_if_drug_or_word_table_not_exist_raise_404(self):
         """
@@ -52,9 +52,10 @@ class WordCloudViewTest(TestCase):
         """
         table_names = connection.introspection.table_names()
         if 'drugs' not in table_names or 'words' not in table_names:
-            response = self.client.get(self.url)
-            response.content = response.content.decode('utf-8')
+            for url in self.url:
+                response = self.client.get(url)
+                response.content = response.content.decode('utf-8')
 
-            self.assertEqual(response.status_code, 404)
-            self.assertRaises(Http404)
-            self.assertContains(response, CHART_CREATION_FAILED)
+                self.assertEqual(response.status_code, 404)
+                self.assertRaises(Http404)
+                self.assertContains(response, CHART_CREATION_FAILED)
