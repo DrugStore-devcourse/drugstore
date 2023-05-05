@@ -27,12 +27,12 @@ class KbsArticleCrawler :
                 self.driver.get_driver().get(link)
                 time.sleep(0.5)
 
-                title = self.driver.get_driver().find_element(by=By.CSS_SELECTOR, value="#fusion-app > div.article.\| > div:nth-child(2) > div > div > div.article-header__headline-container.\|.box--pad-left-md.box--pad-right-md > h1 > span").text
-                written_at = self.driver.get_driver().find_element(by=By.XPATH, value='//*[@id="fusion-app"]/div[1]/div[2]/div/section/article/div[2]/span')
-                written_at = written_at.text.split()[1][:-1]
+                title = self.driver.get_driver().find_element(by=By.CSS_SELECTOR, value="#content > div > div.detail-component.det-news > div.landing-box > div.landing-caption > h5").text
+                written_at = self.driver.get_driver().find_element(by=By.XPATH, value='//*[@id="content"]/div/div[1]/div[1]/div[1]/span')
+                written_at = written_at.text.split()[1]
                 written_at_obj = datetime.strptime(written_at, '%Y.%m.%d').date()
                 total_contents = ''
-                contents = self.driver.get_driver().find_elements(by=By.CSS_SELECTOR, value="#fusion-app > div.article.\| > div:nth-child(2) > div > section > article > section > p")
+                contents = self.driver.get_driver().find_elements(by=By.CSS_SELECTOR, value="#cont_newstext")
                 for content in contents:
                     total_contents += content.text
 
@@ -48,7 +48,7 @@ class KbsArticleCrawler :
         except TimeoutException as e:
             self.logger.warning(f'Page load timed out: {str(e)}')
         except WebDriverException as e:
-            self.logger.warning(f'Failed to get Chosun article: {str(e)}')
+            self.logger.warning(f'Failed to get Kbs article: {str(e)}')
         finally:
             self.driver.stop()
 
