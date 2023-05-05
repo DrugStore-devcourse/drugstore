@@ -15,7 +15,6 @@ def drug_list(request):
             logging.warning(ROWS_NOT_EXIST)
             context = {'error_message': LIST_CREATION_REJECT}
         else:
-
             drugs = Drug.objects.all().only('id', 'drfstf', 'drfstf_eng', 'drug_no', 'type_code').values()
             names = [drug['drfstf'] for drug in drugs]
             if len(Word.objects.all().values()) <= 10:
@@ -42,7 +41,6 @@ def drug_list(request):
 
         context = {'hot_drugs' : hot_drugs}
     try:
-        
         chart_url = "http://" + request.get_host() + reverse('chart:top10_pie_chart')
         context['chart'] = requests.get(chart_url).text
     except (requests.exceptions.RequestException):
