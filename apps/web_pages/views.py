@@ -10,6 +10,7 @@ import logging
 
 # Create your views here.
 def drug_list(request):
+    mosts = []
     try:
         if not Drug.objects.exists() or not Word.objects.exists():
             logging.warning(ROWS_NOT_EXIST)
