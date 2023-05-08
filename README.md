@@ -36,6 +36,10 @@
 
 ### 4. 워크플로우 및 데이터 모델링
 
+![flow](https://user-images.githubusercontent.com/70009161/236857268-9ff9fcb9-da2f-4b44-98f4-280541dd021f.PNG)
+
+<br> 
+
 ![ERDCloud_drug](https://user-images.githubusercontent.com/70009161/236844952-2a153da7-fada-481c-9129-662ef25a2661.PNG)
 
 <br> 
