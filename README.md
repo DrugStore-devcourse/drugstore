@@ -38,6 +38,13 @@
 
 ![ERDCloud_drug](https://user-images.githubusercontent.com/70009161/236844952-2a153da7-fada-481c-9129-662ef25a2661.PNG)
 
+<br> 
+
+### 5. 시연결
+
+![example](https://user-images.githubusercontent.com/70009161/236846995-09cafd82-f077-4aa5-b54d-b8c19ea5453a.gif)
+
+<br> 
       
 ## 🏃‍♂프로젝트 구현
 - 가장 많이 언급된 상위 10개 마약류 차트
