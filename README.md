@@ -35,6 +35,11 @@
 <br> 
 
 ### 4. 워크플로우 및 데이터 모델링
+#### 데이터베이스 스키마
+<img src="https://user-images.githubusercontent.com/131341085/237012454-f30ea1a0-85af-4b1b-9357-01d1307e60f0.png" width="300" height="300">
+
+#### 프로젝트 아키텍쳐 및 워크플로우
+<img src="https://user-images.githubusercontent.com/131341085/237011578-b4d2446b-5e45-4693-a4ce-74f880d5f959.png" width="70%" height="70%">
 
 
 <br> 
