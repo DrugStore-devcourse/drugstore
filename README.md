@@ -41,6 +41,11 @@
 #### 프로젝트 아키텍쳐 및 워크플로우
 <img src="https://user-images.githubusercontent.com/131341085/237011578-b4d2446b-5e45-4693-a4ce-74f880d5f959.png" width="70%" height="70%">
 
+<br> 
+
+### 5. 시연
+
+![example](https://user-images.githubusercontent.com/70009161/237039158-cc59bc3d-8279-4a30-a777-c2a83674274d.gif)
 
 <br> 
       
