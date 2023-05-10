@@ -41,7 +41,7 @@
 | 프론트 | <img src="https://img.shields.io/badge/html-F05132?style=flat&logo=html5&logoColor=black">  <img src="https://img.shields.io/badge/css-61DAFB?style=flat&logo=css3&logoColor=black"> |
 | 라이브러리 | <img src="https://img.shields.io/badge/pandas-150458?style=flat&logo=pandas&logoColor=white"/> <img src="https://img.shields.io/badge/selenium-43B02A?style=flat&logo=selenium&logoColor=white"/> <img src="https://img.shields.io/badge/beautifulsoup-3776AB?style=flat&logo=beautifulsoup&logoColor=white"/> <img src="https://img.shields.io/badge/pyecharts-3776AB?style=flat&logo=pyecharts&logoColor=white"/> |
 | 버전 관리 | <img src="https://img.shields.io/badge/git-F05032?style=fflat&logo=git&logoColor=black">  <img src="https://img.shields.io/badge/github-181717?style=flat&logo=github&logoColor=white">  |
-| 협업 도구 |  <img alt="Slack" src ="https://img.shields.io/badge/Slack-4A154B.svg?&style=flat&logo=slack&logoColor=white"/>     <img src="https://img.shields.io/badge/github-181717?style=flat&logo=github&logoColor=white">
+| 협업 도구 |  <img alt="Slack" src ="https://img.shields.io/badge/Slack-4A154B.svg?&style=flat&logo=slack&logoColor=white"/> <img src="https://img.shields.io/badge/github-181717?style=flat&logo=github&logoColor=white"/> <img src="https://img.shields.io/badge/notion-000000?style=flat&logo=notion&logoColor=white"/> <img src="https://img.shields.io/badge/gather-380953?style=flat&logo=gather&logoColor=white"/>
 
 <br> 
 
