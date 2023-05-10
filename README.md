@@ -36,11 +36,12 @@
 
 | 분야        | Stack  |
 | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 언어 | <img src="https://img.shields.io/badge/python-3.8-3776AB?style=flat&logo=python&logoColor=white"> |
+| 백엔드 |<img src="https://img.shields.io/badge/django-4.2-092E20?style=flat&logo=django&logoColor=white"/>  <img src="https://img.shields.io/badge/sqlite3-003B57?style=flat&logo=sqlite&logoColor=white"/> |
 | 프론트 | <img src="https://img.shields.io/badge/html-F05132?style=flat&logo=html5&logoColor=black">  <img src="https://img.shields.io/badge/css-61DAFB?style=flat&logo=css3&logoColor=black"> |
-| 백엔드 |<img src="https://img.shields.io/badge/django-092E20?style=flat&logo=django&logoColor=white"/>  <img src="https://img.shields.io/badge/sqlite-003B57?style=flat&logo=sqlite&logoColor=white"/> |
-| 데이터 크롤링 및 시각화 | <img src="https://img.shields.io/badge/python-3776AB?style=flat&logo=python&logoColor=white"> |
+| 라이브러리 | <img src="https://img.shields.io/badge/pandas-150458?style=flat&logo=pandas&logoColor=white"/> <img src="https://img.shields.io/badge/selenium-43B02A?style=flat&logo=selenium&logoColor=white"/> <img src="https://img.shields.io/badge/beautifulsoup-3776AB?style=flat&logo=beautifulsoup&logoColor=white"/> <img src="https://img.shields.io/badge/pyecharts-3776AB?style=flat&logo=pyecharts&logoColor=white"/> |
 | 버전 관리 | <img src="https://img.shields.io/badge/git-F05032?style=fflat&logo=git&logoColor=black">  <img src="https://img.shields.io/badge/github-181717?style=flat&logo=github&logoColor=white">  |
-| 협업 도구 |  <img alt="Slack" src ="https://img.shields.io/badge/Slack-4A154B.svg?&style=flat&logo=github&logoColor=white"/>     <img src="https://img.shields.io/badge/github-181717?style=flat&logo=github&logoColor=white">
+| 협업 도구 |  <img alt="Slack" src ="https://img.shields.io/badge/Slack-4A154B.svg?&style=flat&logo=slack&logoColor=white"/>     <img src="https://img.shields.io/badge/github-181717?style=flat&logo=github&logoColor=white">
 
 <br> 
 
