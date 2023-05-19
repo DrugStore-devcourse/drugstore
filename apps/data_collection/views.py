@@ -19,13 +19,13 @@ def save_articles():
     crawler = ArticleCrawler() 
     article_links = crawler.get_article_links(PRESSES)
     articles = []
-    if 'chosun' in article_links.keys():
+    if 'chosun' in article_links.keys() and article_links['chosun']:
         chosun_crawler = ChosunArticleCrawler()
         articles.extend(chosun_crawler.get_articles(article_links['chosun']))
-    if 'yeonhap' in article_links.keys():
+    if 'yeonhap' in article_links.keys() and article_links['yeonhap']:
         yeonhap_crawler = YeonhapArticleCrawler()
         articles.extend(yeonhap_crawler.get_articles(article_links['yeonhap']))
-    if 'kbs' in article_links.keys():
+    if 'kbs' in article_links.keys() and article_links['kbs']:
         kbs_crawler = KbsArticleCrawler()
         articles.extend(kbs_crawler.get_articles(article_links['kbs']))
     

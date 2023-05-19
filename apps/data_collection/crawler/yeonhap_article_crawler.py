@@ -3,6 +3,8 @@ import logging
 from typing import List
 from datetime import datetime
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import NoSuchElementException, TimeoutException, WebDriverException
 from apps.data_collection.crawler.chrome_driver import ChromeDriver
 
@@ -25,13 +27,13 @@ class YeonhapArticleCrawler :
             self.driver.start()
             for link in links:
                 self.driver.get_driver().get(link)
-                time.sleep(0.5)
+                time.sleep(0.8)
                 page_type = self.driver.get_driver().find_element(by=By.TAG_NAME, value="body").get_attribute('class')
                 title = self.driver.get_driver().find_element(by=By.TAG_NAME, value="h1").text
                 total_contents = ''
-                if "page-photo" in page_type : 
-                    written_at = self.driver.get_driver().find_element(by=By.CSS_SELECTOR, value='#viewWrap > div.inner-article > p > span').text.split(" ")[0]
-                    written_at_obj = datetime.strptime(written_at, '%Y/%m/%d').date()
+                if "page-photo" in page_type or "graphic" in page_type: 
+                    written_at = WebDriverWait(self.driver.get_driver(), 15).until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, '#viewWrap > div.inner-article > p > span')))   
+                    written_at_obj = datetime.strptime(written_at[0].text.split(" ")[0] , '%Y/%m/%d').date()
                     contents = self.driver.get_driver().find_element(by=By.CSS_SELECTOR, value="#viewWrap > div.inner-article > div.article-txt").find_elements(by=By.TAG_NAME, value="p")
                 else :
                     written_at = self.driver.get_driver().find_element(by=By.CSS_SELECTOR, value='#newsUpdateTime01').get_attribute("data-published-time")[:8]
@@ -39,8 +41,6 @@ class YeonhapArticleCrawler :
                     contents = self.driver.get_driver().find_element(by=By.CSS_SELECTOR, value="#articleWrap > div.content01.scroll-article-zone01 > div > div > article").find_elements(by=By.TAG_NAME, value="p")
                 
                 for content in contents:
-                    # if "@yna.co.kr" in content.text:
-                    #     break
                     total_contents += content.text
                     
                 article = {

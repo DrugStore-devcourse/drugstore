@@ -40,10 +40,12 @@ class ArticleCrawler :
                 for p in range(1, pages+1) : 
                     res = requests.get(presses[press] + "&p=" + str(p))
                     soup = BeautifulSoup(res.text, "html.parser")
-                    articles = soup.find("ul" , "list_news").find_all("li")
-                    for article in articles: 
-                        link = article.find("a").get('href')
-                        article_links[press].append(link)
+                    list_articles = soup.find("ul" , "list_news")
+                    if list_articles:
+                        articles = list_articles.find_all("li")
+                        for article in articles: 
+                            link = article.find("a").get('href')
+                            article_links[press].append(link)
             except requests.exceptions.RequestException as e:
                     self.logger.error(f'Error occurred while getting article links from {press}: {str(e)}')
                     continue
